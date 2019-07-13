@@ -9,4 +9,4 @@
 
 下图描述了如何设计、配置和发布一个服务的过程。软件架构师设计云资源服务的蓝图，IT支持管理员定义手工工单的流程，IT支持管理员通过配置，将服务发布到服务目录。业务组成员在服务目录中根据实际需求进行自助申请，服务中包含的云资源在审批后自动化部署，或通过工单进行处理，交付给用户进行自助运维。
 
-![服务目录示例](http://192.168.1.55/picture/foundationConcepts/Pic05-服务目录.png)
+![服务目录示例](https://cloudchef.github.io/doc/picture/foundationConcepts/Pic05-服务目录.png)

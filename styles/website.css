@@ -2,8 +2,9 @@ blockquote {
   border-left: 4px solid #4183C4 !important;
   padding: 0 15px;
   color: #333!important;
-}
+  margin:10px!important;
 
+}
 /* body 
 {
 width: 100% ;
@@ -24,8 +25,12 @@ width:70%;
 float:right;
 padding: 40px;
 } */
-img{
+.book-logo img{
     width:100%;
+}
+p img{
+display: block;
+margin: 0 auto;
 }
 figcaption {
 display: block;
@@ -98,4 +103,11 @@ padding-left: 15px;
 }
 .book .book-summary .book-logo{
   padding-bottom: 0px;
+}
+.book-summary ul.summary li.header{
+  font-size: 1.2em;
+}
+.page-inner{
+  max-width: 80%!important;
+  margin: 0px 100px;
 }
