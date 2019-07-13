@@ -1,0 +1,101 @@
+blockquote {
+  border-left: 4px solid #4183C4 !important;
+  padding: 0 15px;
+  color: #333!important;
+}
+
+/* body 
+{
+width: 100% ;
+margin: 16px auto;
+}
+.left-div 
+{
+width:20%;
+float:left;
+padding: 20px;
+position: fixed;
+overflow-y:scroll;
+height: 90%;
+}
+.right-div 
+{
+width:70%;
+float:right;
+padding: 40px;
+} */
+img{
+    width:100%;
+}
+figcaption {
+display: block;
+text-align: center;
+margin:20px;
+  }
+/* a {
+font-size:16px
+}  */
+/* a:link {color:#000000; text-decoration:none;} 
+a:active:{color: #000000; } 
+a:visited {color:#000000;text-decoration:none;} 
+a:hover {color: blue; text-decoration:none;}  */
+table
+{
+font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+width:100%;
+border-collapse:collapse;
+}
+
+td,th 
+{
+font-size:1em;
+border:1px solid #98bf21;
+padding:3px 7px 2px 7px;
+}
+
+th 
+{
+font-size:1.1em;
+text-align:left;
+padding-top:5px;
+padding-bottom:4px;
+background-color:#A7C942;
+color:#ffffff;
+}
+
+tr,td 
+{
+color:#000000;
+background-color:#EAF2D3;
+}
+/* li{
+padding-bottom: 5px;
+} */
+/* .third{
+padding-left: 15px;
+} */
+.book-header h1{
+  display:none!important;
+}
+#book-search-input input, #book-search-input input:focus, #book-search-input input:hover
+{
+  border: #2472a4 2px solid!important;
+  border-radius: 50px;
+  padding: 6px 12px;
+}
+#book-search-input{
+ 
+  margin-bottom: 20px!important;
+ margin-top: 10px!important;
+ border-top: none!important;
+
+}
+.book-summary ul.summary{
+  padding-left: 20px;
+  }
+.gitbook-link{
+  display:none!important;
+}
+.book .book-summary .book-logo{
+  padding-bottom: 0px;
+}
