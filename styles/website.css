@@ -111,3 +111,14 @@ padding-left: 15px;
   max-width: 80%!important;
   margin: 0px 100px;
 }
+strong{
+  display: block!important;
+  font-size: 1.8em!important;
+  margin: 10px 0!important;
+}
+.markdown-section h1 {
+  font-size: 1.5em!important;
+}
+.markdown-section h2 {
+  font-size: 1.3em!important;
+}
