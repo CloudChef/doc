@@ -1,1 +1,1 @@
-<a href="https://cloudchef.github.io/doc/test.pdf" download="FileName">用户手册PDF</a>
+<a href="https://cloudchef.github.io/doc/test.pdf" >用户手册PDF</a>
