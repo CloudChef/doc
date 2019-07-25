@@ -64,7 +64,7 @@ font-size:1.1em;
 text-align:left;
 padding-top:5px;
 padding-bottom:4px;
-background-color:#1890FF;
+background-color:#0084f0;
 color:#ffffff;
 }
 
@@ -121,4 +121,7 @@ strong{
 }
 .markdown-section h2 {
   font-size: 1.3em!important;
+}
+.markdown-section p {
+  margin-bottom: 2px!important;
 }
