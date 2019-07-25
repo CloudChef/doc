@@ -1,1 +1,1 @@
-pdf下载
+<a href="https://cloudchef.github.io/doc/test.pdf" download="FileName">用户手册PDF</a>
