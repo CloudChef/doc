@@ -54,7 +54,7 @@ border-collapse:collapse;
 td,th 
 {
 font-size:1em;
-border:1px solid #98bf21;
+border:1px solid #E6F7FF;
 padding:3px 7px 2px 7px;
 }
 
@@ -64,14 +64,14 @@ font-size:1.1em;
 text-align:left;
 padding-top:5px;
 padding-bottom:4px;
-background-color:#A7C942;
+background-color:#0084f0;
 color:#ffffff;
 }
 
 tr,td 
 {
 color:#000000;
-background-color:#EAF2D3;
+background-color:#E6F7FF;
 }
 /* li{
 padding-bottom: 5px;
@@ -110,4 +110,18 @@ padding-left: 15px;
 .page-inner{
   max-width: 80%!important;
   margin: 0px 100px;
+}
+strong{
+  display: block!important;
+  font-size: 1.8em!important;
+  margin: 10px 0!important;
+}
+.markdown-section h1 {
+  font-size: 1.5em!important;
+}
+.markdown-section h2 {
+  font-size: 1.3em!important;
+}
+.markdown-section p {
+  margin-bottom: 2px!important;
 }
