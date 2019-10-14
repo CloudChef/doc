@@ -124,7 +124,7 @@ SmartCMP主要有两种服务场景，其一是云资源蓝图服务场景；其
 
 4.  点击「保存」，IP池创建成功
 
->「Note」IP池的起始ID应大于CIDR范围，IP池的结束IP应大于起始IP
+>「Note」IP池的起始ID应大于等于CIDR，IP池的结束IP应大于起始IP
 
 # 定义资源池
 
