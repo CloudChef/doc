@@ -13,7 +13,7 @@ SmartCMP主要有两种服务场景，其一是云资源蓝图服务场景；其
 2. 需要IT人工介入的服务（例如：申请重新设置密码的手工工单服务，申请此项手工工单服务也是工单服务的典型服务场景）
 支持管理员定义标准工单服务、通过服务配置指定服务流程和服务团队再发布服务、通过服务目录进行服务申请，服务团队接收服务工单，进行工单处理操作。
 
->「Note」配置更多云资源蓝图服务请您参考[快速配置云资源蓝图服务](#快速配置云资源蓝图服务)，工单服务详细介绍，请您参考[手工工单服务管理](http://CMP-PUBLIC-IP/help-en/AdminDoc/08工单服务管理/)
+>「Note」配置更多云资源蓝图服务请您参考[快速配置云资源蓝图服务](#快速配置云资源蓝图服务)，工单服务详细介绍，请您参考[手工工单服务管理](https://cloudchef.github.io/doc/AdminDoc/08工单服务管理/)
 
 
 管理员初次使用系统发布服务，需要做如下操作以配置系统：
@@ -49,7 +49,7 @@ SmartCMP主要有两种服务场景，其一是云资源蓝图服务场景；其
 
 云平台入口定义了SmartCMP纳管的公有云、私有云、容器或物理机的云基础设施资源。不同云基础设施账号的形式及获取方式各有不同，管理员可以通过填写对应的基础设施的访问信息完成云平台基础设施的注册。
 
->「Note」请使用租户管理员或基础设施管理员登录SmartCMP平台。公有云的访问信息获取方式，请您参考[添加阿里云平台](http://CMP-PUBLIC-IP/help-en/AdminDoc/03基础设施管理/云平台管理.html#添加阿里云平台)
+>「Note」请使用租户管理员或基础设施管理员登录SmartCMP平台。公有云的访问信息获取方式，请您参考[添加阿里云平台](https://cloudchef.github.io/doc/AdminDoc/03基础设施管理/云平台管理.html#添加阿里云平台)
 
 ## 添加vSphere云平台
 
@@ -246,7 +246,7 @@ SmartCMP可通过定义资源池来将一个云平台中的资源映射到多个
 
 系统默认创建Default业务组以及租户管理员、业务组管理员和业务组普通用户等。可通过以下步骤分配资源池：
 
->「Note」如需修改该业务组的设置，或创建新的业务组，请参考 [组织架构](http://CMP-PUBLIC-IP/help-en/AdminDoc/04组织架构管理/)中的详细步骤。
+>「Note」如需修改该业务组的设置，或创建新的业务组，请参考 [组织架构](https://cloudchef.github.io/doc/AdminDoc/04组织架构管理/)中的详细步骤。
 
 1.  点击左侧导航栏「组织架构」-「业务组」，点击业务组名称（Default）进入编辑页面
 
@@ -348,7 +348,7 @@ SmartCMP可通过定义资源池来将一个云平台中的资源映射到多个
   + 监控方式和自动化代理的方式：与vSphere的Linux模板相同，可配置SSH端口，此外SSH用户支持密钥方式（可在「基础设施」-「密钥对」中新建密钥或导入密钥）
   + 管理员用户名和密码：输入需要设置的操作系统管理员用户名和密码
 
-点击「提交」，提示虚拟机模板已创建。点击「保存」，提示虚拟机模板已更新此时CentOS7的Linux操作系统，关联了2个虚拟机模板。在[配置服务](http://CMP-PUBLIC-IP/help-en/AdminDoc/05服务建模/服务配置.html)的时候，平台会自动选择与该服务相对应的虚拟机模板，无需重复设置。
+点击「提交」，提示虚拟机模板已创建。点击「保存」，提示虚拟机模板已更新此时CentOS7的Linux操作系统，关联了2个虚拟机模板。在[配置服务](https://cloudchef.github.io/doc/AdminDoc/05服务建模/服务配置.html)的时候，平台会自动选择与该服务相对应的虚拟机模板，无需重复设置。
 
 ## 添加Windows虚拟机模板
 
@@ -448,7 +448,7 @@ SmartCMP可通过定义资源池来将一个云平台中的资源映射到多个
 系统默认内置了蓝图，包括vSphere Linux，vSphere
 Windows等，可直接使用，进入下一节进行服务配置和发布。
 
->「Note」如需创建新的蓝图，请参考[服务建模](http://CMP-PUBLIC-IP/help-en/AdminDoc/05服务建模)中的详细步骤。
+>「Note」如需创建新的蓝图，请参考[服务建模](https://cloudchef.github.io/doc/AdminDoc/05服务建模)中的详细步骤。
 
 # 配置并发布服务
 
@@ -718,7 +718,7 @@ SmartCMP支持租户和系统管理员定义和发布标准的工单服务，支
 
 4.  点击「保存」，服务团队创建成功，与用户关联成功
 
->「Note」如需修改该服务团队的设置，或创建新的服务团队，请参考[组织架构](http://CMP-PUBLIC-IP/help-en/AdminDoc/04组织架构管理)中的详细步骤。
+>「Note」如需修改该服务团队的设置，或创建新的服务团队，请参考[组织架构](https://cloudchef.github.io/doc/AdminDoc/04组织架构管理)中的详细步骤。
 
 ## 配置与发布服务
 
@@ -732,7 +732,7 @@ SmartCMP支持租户和系统管理员定义和发布标准的工单服务，支
 
 4.  点击保存按钮，服务将被保存不发布，点击保存并发布按钮，服务将被发布到服务目录页面。
 
->「Note」请使用租户管理员角色登录SmartCMP平台。如需修改配置与发布的设置，或创建新的配置与发布，请参考[创建和配置服务工单](http://CMP-PUBLIC-IP/help-en/AdminDoc/08工单服务管理/)中的详细步骤。如需修改服务流程的配置，或创建新的服务流程配置，请参考[服务流程管理](http://CMP-PUBLIC-IP/help-en/AdminDoc/08工单服务管理/)。
+>「Note」请使用租户管理员角色登录SmartCMP平台。如需修改配置与发布的设置，或创建新的配置与发布，请参考[创建和配置服务工单](https://cloudchef.github.io/doc/AdminDoc/08工单服务管理/)中的详细步骤。如需修改服务流程的配置，或创建新的服务流程配置，请参考[服务流程管理](https://cloudchef.github.io/doc/AdminDoc/08工单服务管理/)。
 
 ## 工单处理和跟踪
 
@@ -746,7 +746,7 @@ SmartCMP支持租户和系统管理员定义和发布标准的工单服务，支
 
 4.  点击「服务请求」-「所有请求」，即可查看所有服务请求的详细信息。
 
->「Note」具体的工单处理和跟踪，请您参考[处理和跟踪工单](http://CMP-PUBLIC-IP/help-en/AdminDoc/08工单服务管理/)
+>「Note」具体的工单处理和跟踪，请您参考[处理和跟踪工单](https://cloudchef.github.io/doc/AdminDoc/08工单服务管理/)
 
 
 
@@ -784,318 +784,318 @@ SmartCMP支持租户和系统管理员定义和发布标准的工单服务，支
 
 ## vSphere单节点虚拟机服务{#vSphere单节点虚拟机服务}
 
-i.  添加vSphere云平台：参照[添加vSphere云平台](http://CMP-PUBLIC-IP/help-en/AdminDoc/03基础设施管理/云平台管理.html#添加vSphere云平台)
+i.  添加vSphere云平台：参照[添加vSphere云平台](https://cloudchef.github.io/doc/AdminDoc/03基础设施管理/云平台管理.html#添加vSphere云平台)
 
-ii. 添加vSphere 资源池：参照[ 添加vSphere资源池](http://CMP-PUBLIC-IP/help-en/AdminDoc/03基础设施管理/资源池管理.html#添加vSphere资源池)
+ii. 添加vSphere 资源池：参照[ 添加vSphere资源池](https://cloudchef.github.io/doc/AdminDoc/03基础设施管理/资源池管理.html#添加vSphere资源池)
 
-iii. 添加业务组与资源池的关联：参照[业务组添加资源池](http://CMP-PUBLIC-IP/help-en/AdminDoc/04组织架构管理/业务组.html#业务组添加资源池)
+iii. 添加业务组与资源池的关联：参照[业务组添加资源池](https://cloudchef.github.io/doc/AdminDoc/04组织架构管理/业务组.html#业务组添加资源池)
 
-iv. 配置虚拟机模板：参照[添加一个vSphere虚拟机模板](http://CMP-PUBLIC-IP/help-en/AdminDoc/03基础设施管理/虚拟机模板.html#添加vSphere虚拟机模板)
+iv. 配置虚拟机模板：参照[添加一个vSphere虚拟机模板](https://cloudchef.github.io/doc/AdminDoc/03基础设施管理/虚拟机模板.html#添加vSphere虚拟机模板)
 
-v.  定义计算规格：参照[添加vSphere计算规格](http://CMP-PUBLIC-IP/help-en/AdminDoc/03基础设施管理/计算规格.html#添加vSphere计算规格)
+v.  定义计算规格：参照[添加vSphere计算规格](https://cloudchef.github.io/doc/AdminDoc/03基础设施管理/计算规格.html#添加vSphere计算规格)
 
-vi. 创建vSphere单节点蓝图：参照[创建vSphere单节点蓝图](http://CMP-PUBLIC-IP/help-en/AdminDoc/05服务建模/蓝图设计.html#创建vSphere单节点蓝图)
+vi. 创建vSphere单节点蓝图：参照[创建vSphere单节点蓝图](https://cloudchef.github.io/doc/AdminDoc/05服务建模/蓝图设计.html#创建vSphere单节点蓝图)
 
-vii. 配置vSphere单节点服务：参照[ 配置vSphere单节点服务](http://CMP-PUBLIC-IP/help-en/AdminDoc/05服务建模/服务配置.html#配置vSphere单节点服务)
+vii. 配置vSphere单节点服务：参照[ 配置vSphere单节点服务](https://cloudchef.github.io/doc/AdminDoc/05服务建模/服务配置.html#配置vSphere单节点服务)
 
-viii. 服务申请：参照[服务目录申请](http://CMP-PUBLIC-IP/help-en/AdminDoc/06云服务管理/#服务目录申请)
+viii. 服务申请：参照[服务目录申请](https://cloudchef.github.io/doc/AdminDoc/06云服务管理/#服务目录申请)
 
-ix. 服务部署运维操作：参照[服务部署运维操作](http://CMP-PUBLIC-IP/help-en/AdminDoc/06云服务管理/我的部署.html#服务部署运维操作) 
+ix. 服务部署运维操作：参照[服务部署运维操作](https://cloudchef.github.io/doc/AdminDoc/06云服务管理/我的部署.html#服务部署运维操作) 
 
-x.  云主机相关运维操作：参照[云主机运维操作](http://CMP-PUBLIC-IP/help-en/AdminDoc/06云服务管理/我的部署.html#云主机运维操作) 
+x.  云主机相关运维操作：参照[云主机运维操作](https://cloudchef.github.io/doc/AdminDoc/06云服务管理/我的部署.html#云主机运维操作) 
 
 ## VMwareNSX服务{#VMwareNSX服务}
 
-i.  添加VMware NSX平台：参照[ 添加VMware NSX平台](http://CMP-PUBLIC-IP/help-en/AdminDoc/03基础设施管理/云平台管理.html#添加VMwareNSX平台)
+i.  添加VMware NSX平台：参照[ 添加VMware NSX平台](https://cloudchef.github.io/doc/AdminDoc/03基础设施管理/云平台管理.html#添加VMwareNSX平台)
 
-ii. 添加vSphere云平台：参照[ 添加vSphere云平台](http://CMP-PUBLIC-IP/help-en/AdminDoc/03基础设施管理/云平台管理.html#添加vSphere云平台)
+ii. 添加vSphere云平台：参照[ 添加vSphere云平台](https://cloudchef.github.io/doc/AdminDoc/03基础设施管理/云平台管理.html#添加vSphere云平台)
 
-iii. 添加vSphere with NSX资源池：参照[ 添加vSphere with NSX资源池](http://CMP-PUBLIC-IP/help-en/AdminDoc/03基础设施管理/资源池管理.html#添加vSphereWithNSX资源池)
+iii. 添加vSphere with NSX资源池：参照[ 添加vSphere with NSX资源池](https://cloudchef.github.io/doc/AdminDoc/03基础设施管理/资源池管理.html#添加vSphereWithNSX资源池)
 
-iv. 配置虚拟机模板：参照[添加一个vSphere虚拟机模板](http://CMP-PUBLIC-IP/help-en/AdminDoc/03基础设施管理/虚拟机模板.html#添加vSphere虚拟机模板)
+iv. 配置虚拟机模板：参照[添加一个vSphere虚拟机模板](https://cloudchef.github.io/doc/AdminDoc/03基础设施管理/虚拟机模板.html#添加vSphere虚拟机模板)
 
-v.  定义计算规格：参照[添加vSphere计算规格](http://CMP-PUBLIC-IP/help-en/AdminDoc/03基础设施管理/计算规格.html#添加vSphere计算规格)
+v.  定义计算规格：参照[添加vSphere计算规格](https://cloudchef.github.io/doc/AdminDoc/03基础设施管理/计算规格.html#添加vSphere计算规格)
 
-vi. 添加业务组与资源池的关联：参照[业务组添加资源池](http://CMP-PUBLIC-IP/help-en/AdminDoc/04组织架构管理/业务组.html#业务组添加资源池)
+vi. 添加业务组与资源池的关联：参照[业务组添加资源池](https://cloudchef.github.io/doc/AdminDoc/04组织架构管理/业务组.html#业务组添加资源池)
 
-vii. 创建VMware NSX蓝图：参照[ 创建VMware NSX蓝图](http://CMP-PUBLIC-IP/help-en/AdminDoc/05服务建模/蓝图设计.html#创建VMwareNSX蓝图)
+vii. 创建VMware NSX蓝图：参照[ 创建VMware NSX蓝图](https://cloudchef.github.io/doc/AdminDoc/05服务建模/蓝图设计.html#创建VMwareNSX蓝图)
 
-viii. 配置VMware NSX服务：参照[ 配置VMware NSX服务](http://CMP-PUBLIC-IP/help-en/AdminDoc/05服务建模/服务配置.html#配置VMwareNSX服务)
+viii. 配置VMware NSX服务：参照[ 配置VMware NSX服务](https://cloudchef.github.io/doc/AdminDoc/05服务建模/服务配置.html#配置VMwareNSX服务)
 
-ix. 服务申请：参照[ 服务目录申请](http://CMP-PUBLIC-IP/help-en/AdminDoc/06云服务管理/#服务目录申请)
+ix. 服务申请：参照[ 服务目录申请](https://cloudchef.github.io/doc/AdminDoc/06云服务管理/#服务目录申请)
 
-x.  服务部署运维操作：参照[服务部署运维操作](http://CMP-PUBLIC-IP/help-en/AdminDoc/06云服务管理/我的部署.html#服务部署运维操作) 
+x.  服务部署运维操作：参照[服务部署运维操作](https://cloudchef.github.io/doc/AdminDoc/06云服务管理/我的部署.html#服务部署运维操作) 
 
-xi. 云主机相关运维操作：参照[云主机运维操作](http://CMP-PUBLIC-IP/help-en/AdminDoc/06云服务管理/我的部署.html#云主机运维操作) 
+xi. 云主机相关运维操作：参照[云主机运维操作](https://cloudchef.github.io/doc/AdminDoc/06云服务管理/我的部署.html#云主机运维操作) 
 
 ## vSphereMySQL带监控服务{#vSphereMysql带监控服务}
 
-i.  添加vSphere云平台：参照[ 添加vSphere云平台](http://CMP-PUBLIC-IP/help-en/AdminDoc/03基础设施管理/云平台管理.html#添加vSphere云平台)
+i.  添加vSphere云平台：参照[ 添加vSphere云平台](https://cloudchef.github.io/doc/AdminDoc/03基础设施管理/云平台管理.html#添加vSphere云平台)
 
-ii. 添加vSphere 资源池：参照[ 添加vSphere资源池](http://CMP-PUBLIC-IP/help-en/AdminDoc/03基础设施管理/资源池管理.html#添加vSphere资源池)
+ii. 添加vSphere 资源池：参照[ 添加vSphere资源池](https://cloudchef.github.io/doc/AdminDoc/03基础设施管理/资源池管理.html#添加vSphere资源池)
 
-iii. 添加业务组与资源池的关联：参照[业务组添加资源池](http://CMP-PUBLIC-IP/help-en/AdminDoc/04组织架构管理/业务组.html#业务组添加资源池)
+iii. 添加业务组与资源池的关联：参照[业务组添加资源池](https://cloudchef.github.io/doc/AdminDoc/04组织架构管理/业务组.html#业务组添加资源池)
 
-iv. 配置虚拟机模板：参照[添加vSphere虚拟机模板](http://CMP-PUBLIC-IP/help-en/AdminDoc/03基础设施管理/虚拟机模板.html#添加vSphere虚拟机模板)
+iv. 配置虚拟机模板：参照[添加vSphere虚拟机模板](https://cloudchef.github.io/doc/AdminDoc/03基础设施管理/虚拟机模板.html#添加vSphere虚拟机模板)
 
-v.  定义计算规格：参照[添加vSphere计算规格](http://CMP-PUBLIC-IP/help-en/AdminDoc/03基础设施管理/计算规格.html#添加vSphere计算规格)
+v.  定义计算规格：参照[添加vSphere计算规格](https://cloudchef.github.io/doc/AdminDoc/03基础设施管理/计算规格.html#添加vSphere计算规格)
 
-vi. 创建vSphere MySQL带监控蓝图：参照[ 创建vSphereMySQL带监控蓝图](http://CMP-PUBLIC-IP/help-en/AdminDoc/05服务建模/蓝图设计.html#创建vSphereMySQL带监控蓝图)
+vi. 创建vSphere MySQL带监控蓝图：参照[ 创建vSphereMySQL带监控蓝图](https://cloudchef.github.io/doc/AdminDoc/05服务建模/蓝图设计.html#创建vSphereMySQL带监控蓝图)
 
-vii. 配置vSphereMySQL带监控服务：参照[配置vSphereMySQL带监控服务](http://CMP-PUBLIC-IP/help-en/AdminDoc/05服务建模/服务配置.html#配置vSphereMySQL带监控服务)
+vii. 配置vSphereMySQL带监控服务：参照[配置vSphereMySQL带监控服务](https://cloudchef.github.io/doc/AdminDoc/05服务建模/服务配置.html#配置vSphereMySQL带监控服务)
 
-viii. 服务申请：参照[ 服务目录申请](http://CMP-PUBLIC-IP/help-en/AdminDoc/06云服务管理/#服务目录申请)
+viii. 服务申请：参照[ 服务目录申请](https://cloudchef.github.io/doc/AdminDoc/06云服务管理/#服务目录申请)
 
-ix. 服务部署运维操作：参照[ 服务部署运维操作](http://CMP-PUBLIC-IP/help-en/AdminDoc/06云服务管理/我的部署.html#服务部署运维操作)
+ix. 服务部署运维操作：参照[ 服务部署运维操作](https://cloudchef.github.io/doc/AdminDoc/06云服务管理/我的部署.html#服务部署运维操作)
 
-x.  云主机相关运维操作：参照[云主机运维操作](http://CMP-PUBLIC-IP/help-en/AdminDoc/06云服务管理/我的部署.html#云主机运维操作) 
+x.  云主机相关运维操作：参照[云主机运维操作](https://cloudchef.github.io/doc/AdminDoc/06云服务管理/我的部署.html#云主机运维操作) 
 
 ## OpenStack单节点服务{#OpenStack单节点服务}
 
-i.  添加OpenStack云平台：参照[ 添加OpenStack云平台](http://CMP-PUBLIC-IP/help-en/AdminDoc/03基础设施管理/云平台管理.html#添加OpenStack云平台)
+i.  添加OpenStack云平台：参照[ 添加OpenStack云平台](https://cloudchef.github.io/doc/AdminDoc/03基础设施管理/云平台管理.html#添加OpenStack云平台)
 
-ii. 添加OpenStack 资源池：参照[ 添加OpenStack资源池](http://CMP-PUBLIC-IP/help-en/AdminDoc/03基础设施管理/资源池管理.html#添加OpenStack资源池)
+ii. 添加OpenStack 资源池：参照[ 添加OpenStack资源池](https://cloudchef.github.io/doc/AdminDoc/03基础设施管理/资源池管理.html#添加OpenStack资源池)
 
-iii. 添加业务组与资源池的关联：参照[业务组添加资源池](http://CMP-PUBLIC-IP/help-en/AdminDoc/04组织架构管理/业务组.html#业务组添加资源池)
+iii. 添加业务组与资源池的关联：参照[业务组添加资源池](https://cloudchef.github.io/doc/AdminDoc/04组织架构管理/业务组.html#业务组添加资源池)
 
-iv. 配置虚拟机模板：参照[添加一个OpenStack虚拟机模板](http://CMP-PUBLIC-IP/help-en/AdminDoc/03基础设施管理/虚拟机模板.html#OpenStack虚拟机模板)
+iv. 配置虚拟机模板：参照[添加一个OpenStack虚拟机模板](https://cloudchef.github.io/doc/AdminDoc/03基础设施管理/虚拟机模板.html#OpenStack虚拟机模板)
 
-v.  定义计算规格：参照[添加OpenStack计算规格](http://CMP-PUBLIC-IP/help-en/AdminDoc/03基础设施管理/计算规格.html#添加OpenStack计算规格)
+v.  定义计算规格：参照[添加OpenStack计算规格](https://cloudchef.github.io/doc/AdminDoc/03基础设施管理/计算规格.html#添加OpenStack计算规格)
 
-vi. 创建OpenStack单节点蓝图：参照[创建OpenStack单节点蓝图](http://CMP-PUBLIC-IP/help-en/AdminDoc/05服务建模/蓝图设计.html#创建OpenStack单节点蓝图)
+vi. 创建OpenStack单节点蓝图：参照[创建OpenStack单节点蓝图](https://cloudchef.github.io/doc/AdminDoc/05服务建模/蓝图设计.html#创建OpenStack单节点蓝图)
 
-vii. 配置OpenStack单节点服务：参照[配置OpenStack单节点服务](http://CMP-PUBLIC-IP/help-en/AdminDoc/05服务建模/服务配置.html#配置OpenStack单节点服务)
+vii. 配置OpenStack单节点服务：参照[配置OpenStack单节点服务](https://cloudchef.github.io/doc/AdminDoc/05服务建模/服务配置.html#配置OpenStack单节点服务)
 
-viii. 服务申请：参照[ 服务目录申请](http://CMP-PUBLIC-IP/help-en/AdminDoc/06云服务管理/#服务目录申请)
+viii. 服务申请：参照[ 服务目录申请](https://cloudchef.github.io/doc/AdminDoc/06云服务管理/#服务目录申请)
 
-ix. 服务部署运维操作：参照[服务部署运维操作](http://CMP-PUBLIC-IP/help-en/AdminDoc/06云服务管理/我的部署.html#服务部署运维操作) 
+ix. 服务部署运维操作：参照[服务部署运维操作](https://cloudchef.github.io/doc/AdminDoc/06云服务管理/我的部署.html#服务部署运维操作) 
 
-x.  云主机相关运维操作：参照[云主机运维操作](http://CMP-PUBLIC-IP/help-en/AdminDoc/06云服务管理/我的部署.html#云主机运维操作) 
+x.  云主机相关运维操作：参照[云主机运维操作](https://cloudchef.github.io/doc/AdminDoc/06云服务管理/我的部署.html#云主机运维操作) 
 
 ## OpenStackFirewall服务{#OpenStackFirewall服务}
 
-i.  添加OpenStack云平台：参照[ 添加OpenStack云平台](http://CMP-PUBLIC-IP/help-en/AdminDoc/03基础设施管理/云平台管理.html#添加OpenStack云平台)
+i.  添加OpenStack云平台：参照[ 添加OpenStack云平台](https://cloudchef.github.io/doc/AdminDoc/03基础设施管理/云平台管理.html#添加OpenStack云平台)
 
-ii. 添加OpenStack 资源池：参照[ 添加OpenStack资源池](http://CMP-PUBLIC-IP/help-en/AdminDoc/03基础设施管理/资源池管理.html#添加OpenStack资源池)
+ii. 添加OpenStack 资源池：参照[ 添加OpenStack资源池](https://cloudchef.github.io/doc/AdminDoc/03基础设施管理/资源池管理.html#添加OpenStack资源池)
 
-iii. 添加业务组与资源池的关联：参照[业务组添加资源池](http://CMP-PUBLIC-IP/help-en/AdminDoc/04组织架构管理/业务组.html#业务组添加资源池)
+iii. 添加业务组与资源池的关联：参照[业务组添加资源池](https://cloudchef.github.io/doc/AdminDoc/04组织架构管理/业务组.html#业务组添加资源池)
 
 
-xi. 配置虚拟机模板：参照[添加一个OpenStack虚拟机模板](http://CMP-PUBLIC-IP/help-en/AdminDoc/03基础设施管理/虚拟机模板.html#添加OpenStack虚拟机模板)
+xi. 配置虚拟机模板：参照[添加一个OpenStack虚拟机模板](https://cloudchef.github.io/doc/AdminDoc/03基础设施管理/虚拟机模板.html#添加OpenStack虚拟机模板)
 
-xii. 定义计算规格：参照[添加OpenStack计算规格](http://CMP-PUBLIC-IP/help-en/AdminDoc/03基础设施管理/计算规格.html#添加OpenStack计算规格)
+xii. 定义计算规格：参照[添加OpenStack计算规格](https://cloudchef.github.io/doc/AdminDoc/03基础设施管理/计算规格.html#添加OpenStack计算规格)
 
-iv. 创建OpenStack Firewall蓝图：参照[ 创建OpenStackFirewall蓝图](http://CMP-PUBLIC-IP/help-en/AdminDoc/05服务建模/蓝图设计.html#创建OpenStackFirewall蓝图)
+iv. 创建OpenStack Firewall蓝图：参照[ 创建OpenStackFirewall蓝图](https://cloudchef.github.io/doc/AdminDoc/05服务建模/蓝图设计.html#创建OpenStackFirewall蓝图)
 
-v.  配置OpenStack Firewall服务：参照[ 配置OpenStackFirewall服务](http://CMP-PUBLIC-IP/help-en/AdminDoc/05服务建模/服务配置.html#配置OpenStackFirewall服务)
+v.  配置OpenStack Firewall服务：参照[ 配置OpenStackFirewall服务](https://cloudchef.github.io/doc/AdminDoc/05服务建模/服务配置.html#配置OpenStackFirewall服务)
 
-vi. 服务申请：参照[ 服务目录申请](http://CMP-PUBLIC-IP/help-en/AdminDoc/06云服务管理/#服务目录申请)
+vi. 服务申请：参照[ 服务目录申请](https://cloudchef.github.io/doc/AdminDoc/06云服务管理/#服务目录申请)
 
-vii. 服务部署运维操作：参照[服务部署运维操作](http://CMP-PUBLIC-IP/help-en/AdminDoc/06云服务管理/我的部署.html#服务部署运维操作) 
+vii. 服务部署运维操作：参照[服务部署运维操作](https://cloudchef.github.io/doc/AdminDoc/06云服务管理/我的部署.html#服务部署运维操作) 
 
 
 
 ## OpenStackLoadBalancerWithSecurityGroup服务{#OpenStackLoadBalancerWithSecurityGroup服务}
 
-i.  添加OpenStack云平台：参照[添加OpenStack云平台](http://CMP-PUBLIC-IP/help-en/AdminDoc/03基础设施管理/云平台管理.html#添加OpenStack云平台)
+i.  添加OpenStack云平台：参照[添加OpenStack云平台](https://cloudchef.github.io/doc/AdminDoc/03基础设施管理/云平台管理.html#添加OpenStack云平台)
 
-ii. 添加OpenStack 资源池：参照[ 添加OpenStack资源池](http://CMP-PUBLIC-IP/help-en/AdminDoc/03基础设施管理/资源池管理.html#添加OpenStack资源池)
+ii. 添加OpenStack 资源池：参照[ 添加OpenStack资源池](https://cloudchef.github.io/doc/AdminDoc/03基础设施管理/资源池管理.html#添加OpenStack资源池)
 
-iii. 添加业务组与资源池的关联：参照[业务组添加资源池](http://CMP-PUBLIC-IP/help-en/AdminDoc/04组织架构管理/业务组.html#业务组添加资源池)
+iii. 添加业务组与资源池的关联：参照[业务组添加资源池](https://cloudchef.github.io/doc/AdminDoc/04组织架构管理/业务组.html#业务组添加资源池)
 
-iv. 配置虚拟机模板：参照[添加一个OpenStack虚拟机模板](http://CMP-PUBLIC-IP/help-en/AdminDoc/03基础设施管理/虚拟机模板.html#添加OpenStack虚拟机模板)
+iv. 配置虚拟机模板：参照[添加一个OpenStack虚拟机模板](https://cloudchef.github.io/doc/AdminDoc/03基础设施管理/虚拟机模板.html#添加OpenStack虚拟机模板)
 
-xiii. 定义计算规格：参照[添加OpenStack计算规格](http://CMP-PUBLIC-IP/help-en/AdminDoc/03基础设施管理/计算规格.html#添加OpenStack计算规格)
+xiii. 定义计算规格：参照[添加OpenStack计算规格](https://cloudchef.github.io/doc/AdminDoc/03基础设施管理/计算规格.html#添加OpenStack计算规格)
 
-v.  创建OpenStack LoadBalancer with SecuriryGruop蓝图：参照[创建OpenStack LoadBalancer SecurityGroup蓝图](http://CMP-PUBLIC-IP/help-en/AdminDoc/05服务建模/蓝图设计.html#创建OpenStackLoadBalancerSecurityGroup蓝图)
+v.  创建OpenStack LoadBalancer with SecuriryGruop蓝图：参照[创建OpenStack LoadBalancer SecurityGroup蓝图](https://cloudchef.github.io/doc/AdminDoc/05服务建模/蓝图设计.html#创建OpenStackLoadBalancerSecurityGroup蓝图)
 
-vi. 配置OpenStack LoadBalancer with SecuriryGruop服务：参照[配置OpenStack LoadBalancer with SecuriryGruop服务](http://CMP-PUBLIC-IP/help-en/AdminDoc/05服务建模/服务配置.html#配置OpenStackLoadBalancerWithSecuriryGruop服务)
+vi. 配置OpenStack LoadBalancer with SecuriryGruop服务：参照[配置OpenStack LoadBalancer with SecuriryGruop服务](https://cloudchef.github.io/doc/AdminDoc/05服务建模/服务配置.html#配置OpenStackLoadBalancerWithSecuriryGruop服务)
 
-vii. 服务申请：参照[ 服务目录申请](http://CMP-PUBLIC-IP/help-en/AdminDoc/06云服务管理/#服务目录申请)
+vii. 服务申请：参照[ 服务目录申请](https://cloudchef.github.io/doc/AdminDoc/06云服务管理/#服务目录申请)
 
-viii. 服务部署运维操作：参照[服务部署运维操作](http://CMP-PUBLIC-IP/help-en/AdminDoc/06云服务管理/我的部署.html#服务部署运维操作) 
+viii. 服务部署运维操作：参照[服务部署运维操作](https://cloudchef.github.io/doc/AdminDoc/06云服务管理/我的部署.html#服务部署运维操作) 
 
-ix. 云主机相关运维操作：参照[云主机运维操作](http://CMP-PUBLIC-IP/help-en/AdminDoc/06云服务管理/我的部署.html#云主机运维操作) 
+ix. 云主机相关运维操作：参照[云主机运维操作](https://cloudchef.github.io/doc/AdminDoc/06云服务管理/我的部署.html#云主机运维操作) 
 
 
 
 ## OpenStackFloatingIP服务{#OpenStackFloatingIP服务}
 
-i.  添加OpenStack云平台：参照[添加OpenStack云平台](http://CMP-PUBLIC-IP/help-en/AdminDoc/03基础设施管理/云平台管理.html#添加OpenStack云平台)
+i.  添加OpenStack云平台：参照[添加OpenStack云平台](https://cloudchef.github.io/doc/AdminDoc/03基础设施管理/云平台管理.html#添加OpenStack云平台)
 
-ii. 添加OpenStack 资源池：参照[ 添加OpenStack资源池](http://CMP-PUBLIC-IP/help-en/AdminDoc/03基础设施管理/资源池管理.html#添加OpenStack资源池)
+ii. 添加OpenStack 资源池：参照[ 添加OpenStack资源池](https://cloudchef.github.io/doc/AdminDoc/03基础设施管理/资源池管理.html#添加OpenStack资源池)
 
-iii. 添加业务组与资源池的关联：参照[业务组添加资源池](http://CMP-PUBLIC-IP/help-en/AdminDoc/04组织架构管理/业务组.html#业务组添加资源池)
+iii. 添加业务组与资源池的关联：参照[业务组添加资源池](https://cloudchef.github.io/doc/AdminDoc/04组织架构管理/业务组.html#业务组添加资源池)
 
-iv. 配置虚拟机模板：参照[添加一个OpenStack虚拟机模板](http://CMP-PUBLIC-IP/help-en/AdminDoc/03基础设施管理/虚拟机模板.html#添加OpenStack虚拟机模板)
+iv. 配置虚拟机模板：参照[添加一个OpenStack虚拟机模板](https://cloudchef.github.io/doc/AdminDoc/03基础设施管理/虚拟机模板.html#添加OpenStack虚拟机模板)
 
-v.  定义计算规格：参照[添加OpenStack计算规格](http://CMP-PUBLIC-IP/help-en/AdminDoc/03基础设施管理/计算规格.html#添加OpenStack计算规格)
+v.  定义计算规格：参照[添加OpenStack计算规格](https://cloudchef.github.io/doc/AdminDoc/03基础设施管理/计算规格.html#添加OpenStack计算规格)
 
-vi. 创建OpenStack FloatingIP蓝图：参照[ 创建OpenStackFloatingIP蓝图](http://CMP-PUBLIC-IP/help-en/AdminDoc/05服务建模/蓝图设计.html#创建OpenStackFloatingIP蓝图)
+vi. 创建OpenStack FloatingIP蓝图：参照[ 创建OpenStackFloatingIP蓝图](https://cloudchef.github.io/doc/AdminDoc/05服务建模/蓝图设计.html#创建OpenStackFloatingIP蓝图)
 
-vii. 配置OpenStack Firewall服务：参照[ 配置OpenStackFloatingIP服务](http://CMP-PUBLIC-IP/help-en/AdminDoc/05服务建模/服务配置.html#配置OpenStackFloatingIP服务)
+vii. 配置OpenStack Firewall服务：参照[ 配置OpenStackFloatingIP服务](https://cloudchef.github.io/doc/AdminDoc/05服务建模/服务配置.html#配置OpenStackFloatingIP服务)
 
-viii. 服务申请：参照[ 服务目录申请](http://CMP-PUBLIC-IP/help-en/AdminDoc/06云服务管理/#服务目录申请)
+viii. 服务申请：参照[ 服务目录申请](https://cloudchef.github.io/doc/AdminDoc/06云服务管理/#服务目录申请)
 
-ix. 服务部署运维操作：参照[服务部署运维操作](http://CMP-PUBLIC-IP/help-en/AdminDoc/06云服务管理/我的部署.html#服务部署运维操作) 
+ix. 服务部署运维操作：参照[服务部署运维操作](https://cloudchef.github.io/doc/AdminDoc/06云服务管理/我的部署.html#服务部署运维操作) 
 
 
 
 ## OpenStackDNS服务{#OpenStackDNS服务}
 
-i.  添加OpenStack云平台：参照[ 添加OpenStack云平台](http://CMP-PUBLIC-IP/help-en/AdminDoc/03基础设施管理/云平台管理.html#添加OpenStack云平台)
+i.  添加OpenStack云平台：参照[ 添加OpenStack云平台](https://cloudchef.github.io/doc/AdminDoc/03基础设施管理/云平台管理.html#添加OpenStack云平台)
 
-ii. 添加OpenStack 资源池：参照[ 添加OpenStack资源池](http://CMP-PUBLIC-IP/help-en/AdminDoc/03基础设施管理/资源池管理.html#添加OpenStack资源池)
+ii. 添加OpenStack 资源池：参照[ 添加OpenStack资源池](https://cloudchef.github.io/doc/AdminDoc/03基础设施管理/资源池管理.html#添加OpenStack资源池)
 
-iii. 添加业务组与资源池的关联：参照[业务组添加资源池](http://CMP-PUBLIC-IP/help-en/AdminDoc/04组织架构管理/业务组.html#业务组添加资源池)
+iii. 添加业务组与资源池的关联：参照[业务组添加资源池](https://cloudchef.github.io/doc/AdminDoc/04组织架构管理/业务组.html#业务组添加资源池)
 
-iv. 配置虚拟机模板：参照[添加一个OpenStack虚拟机模板](http://CMP-PUBLIC-IP/help-en/AdminDoc/03基础设施管理/虚拟机模板.html#添加OpenStack虚拟机模板)
+iv. 配置虚拟机模板：参照[添加一个OpenStack虚拟机模板](https://cloudchef.github.io/doc/AdminDoc/03基础设施管理/虚拟机模板.html#添加OpenStack虚拟机模板)
 
-v.  定义计算规格：参照[添加OpenStack计算规格](http://CMP-PUBLIC-IP/help-en/AdminDoc/03基础设施管理/计算规格.html#添加OpenStack计算规格)
+v.  定义计算规格：参照[添加OpenStack计算规格](https://cloudchef.github.io/doc/AdminDoc/03基础设施管理/计算规格.html#添加OpenStack计算规格)
 
-vi. 创建OpenStack DNS蓝图：参照[创建OpenStackDNS蓝图](http://CMP-PUBLIC-IP/help-en/AdminDoc/05服务建模/蓝图设计.html#创建OpenStackDNS蓝图)
+vi. 创建OpenStack DNS蓝图：参照[创建OpenStackDNS蓝图](https://cloudchef.github.io/doc/AdminDoc/05服务建模/蓝图设计.html#创建OpenStackDNS蓝图)
 
-vii. 配置OpenStack DNS服务：参照[ 配置OpenStack DNS服务](http://CMP-PUBLIC-IP/help-en/AdminDoc/05服务建模/服务配置.html#配置OpenStackDNS服务)
+vii. 配置OpenStack DNS服务：参照[ 配置OpenStack DNS服务](https://cloudchef.github.io/doc/AdminDoc/05服务建模/服务配置.html#配置OpenStackDNS服务)
 
-viii. 服务申请：参照[ 服务目录申请](http://CMP-PUBLIC-IP/help-en/AdminDoc/06云服务管理/#服务目录申请)
+viii. 服务申请：参照[ 服务目录申请](https://cloudchef.github.io/doc/AdminDoc/06云服务管理/#服务目录申请)
 
-ix. 服务部署运维操作：参照[服务部署运维操作](http://CMP-PUBLIC-IP/help-en/AdminDoc/06云服务管理/我的部署.html#服务部署运维操作) 
+ix. 服务部署运维操作：参照[服务部署运维操作](https://cloudchef.github.io/doc/AdminDoc/06云服务管理/我的部署.html#服务部署运维操作) 
 
 
 
 ## Kubernetes服务{#Kubernetes服务}
 
-i.  添加Kubernetes云平台：参照[ 添加Kubernetes云平台](http://CMP-PUBLIC-IP/help-en/AdminDoc/03基础设施管理/云平台管理.html#添加Kubernetes云平台)
+i.  添加Kubernetes云平台：参照[ 添加Kubernetes云平台](https://cloudchef.github.io/doc/AdminDoc/03基础设施管理/云平台管理.html#添加Kubernetes云平台)
 
-ii. 添加Kubernetes 资源池：参照[添加Kubernetes资源池](http://CMP-PUBLIC-IP/help-en/AdminDoc/03基础设施管理/资源池管理.html#添加Kubernetes资源池)
+ii. 添加Kubernetes 资源池：参照[添加Kubernetes资源池](https://cloudchef.github.io/doc/AdminDoc/03基础设施管理/资源池管理.html#添加Kubernetes资源池)
 
-iii. 添加业务组与资源池的关联：参照[业务组添加资源池](http://CMP-PUBLIC-IP/help-en/AdminDoc/04组织架构管理/业务组.html#业务组添加资源池)
+iii. 添加业务组与资源池的关联：参照[业务组添加资源池](https://cloudchef.github.io/doc/AdminDoc/04组织架构管理/业务组.html#业务组添加资源池)
 
-iv. 创建Kubernetes蓝图：参照[ 创建Kubernetes蓝图](http://CMP-PUBLIC-IP/help-en/AdminDoc/05服务建模/蓝图设计.html#创建Kubernetes蓝图)
+iv. 创建Kubernetes蓝图：参照[ 创建Kubernetes蓝图](https://cloudchef.github.io/doc/AdminDoc/05服务建模/蓝图设计.html#创建Kubernetes蓝图)
 
-v.  配置Kubernetes服务：参照[ 配置Kubernetes服务](http://CMP-PUBLIC-IP/help-en/AdminDoc/05服务建模/服务配置.html#配置Kubernetes服务)
+v.  配置Kubernetes服务：参照[ 配置Kubernetes服务](https://cloudchef.github.io/doc/AdminDoc/05服务建模/服务配置.html#配置Kubernetes服务)
 
-vi. 服务申请：参照[ 服务目录申请](http://CMP-PUBLIC-IP/help-en/AdminDoc/06云服务管理/#服务目录申请)
+vi. 服务申请：参照[ 服务目录申请](https://cloudchef.github.io/doc/AdminDoc/06云服务管理/#服务目录申请)
 
-vii. 服务部署运维操作：参照[服务部署运维操作](http://CMP-PUBLIC-IP/help-en/AdminDoc/06云服务管理/我的部署.html#服务部署运维操作) 
+vii. 服务部署运维操作：参照[服务部署运维操作](https://cloudchef.github.io/doc/AdminDoc/06云服务管理/我的部署.html#服务部署运维操作) 
 
 
 
 ## 阿里云服务{#阿里云服务}
 
-i.  添加阿里云云平台：参照[添加阿里云云平台](http://CMP-PUBLIC-IP/help-en/AdminDoc/03基础设施管理/云平台管理.html#添加阿里云云平台)
+i.  添加阿里云云平台：参照[添加阿里云云平台](https://cloudchef.github.io/doc/AdminDoc/03基础设施管理/云平台管理.html#添加阿里云云平台)
 
-ii. 添加阿里云资源池：参照[添加阿里云资源池](http://CMP-PUBLIC-IP/help-en/AdminDoc/03基础设施管理/资源池管理.html#添加阿里云资源池)
+ii. 添加阿里云资源池：参照[添加阿里云资源池](https://cloudchef.github.io/doc/AdminDoc/03基础设施管理/资源池管理.html#添加阿里云资源池)
 
-iii. 添加业务组与资源池的关联：参照[业务组添加资源池](http://CMP-PUBLIC-IP/help-en/AdminDoc/04组织架构管理/业务组.html#业务组添加资源池)
+iii. 添加业务组与资源池的关联：参照[业务组添加资源池](https://cloudchef.github.io/doc/AdminDoc/04组织架构管理/业务组.html#业务组添加资源池)
 
-iv. 配置虚拟机模板(阿里云虚拟机模板配置与Azure的配置步骤相似)：参照[添加一个Azure虚拟机模板](http://CMP-PUBLIC-IP/help-en/AdminDoc/03基础设施管理/虚拟机模板.html#添加Azure虚拟机模板)
+iv. 配置虚拟机模板(阿里云虚拟机模板配置与Azure的配置步骤相似)：参照[添加一个Azure虚拟机模板](https://cloudchef.github.io/doc/AdminDoc/03基础设施管理/虚拟机模板.html#添加Azure虚拟机模板)
 
-v.  定义计算规格(阿里云计算规格以及云平台规格的定义与Azure相似)：参照[添加Azure计算规格](http://CMP-PUBLIC-IP/help-en/AdminDoc/03基础设施管理/计算规格.html#添加Azure计算规格)
+v.  定义计算规格(阿里云计算规格以及云平台规格的定义与Azure相似)：参照[添加Azure计算规格](https://cloudchef.github.io/doc/AdminDoc/03基础设施管理/计算规格.html#添加Azure计算规格)
 
-vi. 创建阿里云蓝图：参照[创建阿里云蓝图](http://CMP-PUBLIC-IP/help-en/AdminDoc/05服务建模/蓝图设计.html#创建阿里云蓝图)
+vi. 创建阿里云蓝图：参照[创建阿里云蓝图](https://cloudchef.github.io/doc/AdminDoc/05服务建模/蓝图设计.html#创建阿里云蓝图)
 
-vii. 配置阿里云服务：参照[配置阿里云服务](http://CMP-PUBLIC-IP/help-en/AdminDoc/05服务建模/服务配置.html#配置阿里云服务)
+vii. 配置阿里云服务：参照[配置阿里云服务](https://cloudchef.github.io/doc/AdminDoc/05服务建模/服务配置.html#配置阿里云服务)
 
-viii. 服务申请：参照[服务目录申请](http://CMP-PUBLIC-IP/help-en/AdminDoc/06云服务管理/#服务目录申请)
+viii. 服务申请：参照[服务目录申请](https://cloudchef.github.io/doc/AdminDoc/06云服务管理/#服务目录申请)
 
-ix. 服务部署运维操作：参照[服务部署运维操作](http://CMP-PUBLIC-IP/help-en/AdminDoc/06云服务管理/我的部署.html#服务部署运维操作)
+ix. 服务部署运维操作：参照[服务部署运维操作](https://cloudchef.github.io/doc/AdminDoc/06云服务管理/我的部署.html#服务部署运维操作)
 
-x.  云主机相关运维操作：参照[云主机运维操作](http://CMP-PUBLIC-IP/help-en/AdminDoc/06云服务管理/我的部署.html#云主机运维操作) 
+x.  云主机相关运维操作：参照[云主机运维操作](https://cloudchef.github.io/doc/AdminDoc/06云服务管理/我的部署.html#云主机运维操作) 
 
 ## Azure服务{#Azure服务}
 
-i.  添加Azure云平台：参照[添加Azure云平台](http://CMP-PUBLIC-IP/help-en/AdminDoc/03基础设施管理/云平台管理.html#添加Azure云平台)
+i.  添加Azure云平台：参照[添加Azure云平台](https://cloudchef.github.io/doc/AdminDoc/03基础设施管理/云平台管理.html#添加Azure云平台)
 
-ii. 添加Azure资源池：参照[添加Azure资源池](http://CMP-PUBLIC-IP/help-en/AdminDoc/03基础设施管理/资源池管理.html#添加Azure资源池)
+ii. 添加Azure资源池：参照[添加Azure资源池](https://cloudchef.github.io/doc/AdminDoc/03基础设施管理/资源池管理.html#添加Azure资源池)
 
-iii. 添加业务组与资源池的关联：参照[业务组添加资源池](http://CMP-PUBLIC-IP/help-en/AdminDoc/04组织架构管理/业务组.html#业务组添加资源池)
+iii. 添加业务组与资源池的关联：参照[业务组添加资源池](https://cloudchef.github.io/doc/AdminDoc/04组织架构管理/业务组.html#业务组添加资源池)
 
-iv. 配置虚拟机模板：参照[添加一个Azure虚拟机模板](http://CMP-PUBLIC-IP/help-en/AdminDoc/03基础设施管理/虚拟机模板.html#添加Azure虚拟机模板)
+iv. 配置虚拟机模板：参照[添加一个Azure虚拟机模板](https://cloudchef.github.io/doc/AdminDoc/03基础设施管理/虚拟机模板.html#添加Azure虚拟机模板)
 
-v.  定义计算规格：参照[添加Azure计算规格](http://CMP-PUBLIC-IP/help-en/AdminDoc/03基础设施管理/计算规格.html#添加Azure计算规格)
+v.  定义计算规格：参照[添加Azure计算规格](https://cloudchef.github.io/doc/AdminDoc/03基础设施管理/计算规格.html#添加Azure计算规格)
 
-vi. 创建Azure蓝图：参照[创建Azure蓝图](http://CMP-PUBLIC-IP/help-en/AdminDoc/05服务建模/蓝图设计.html#创建Azure蓝图)
+vi. 创建Azure蓝图：参照[创建Azure蓝图](https://cloudchef.github.io/doc/AdminDoc/05服务建模/蓝图设计.html#创建Azure蓝图)
 
-vii. 配置Azure服务：参照[配置Azure服务](http://CMP-PUBLIC-IP/help-en/AdminDoc/05服务建模/服务配置.html#配置Azure服务)
+vii. 配置Azure服务：参照[配置Azure服务](https://cloudchef.github.io/doc/AdminDoc/05服务建模/服务配置.html#配置Azure服务)
 
-viii. 服务申请：参照[服务目录申请](http://CMP-PUBLIC-IP/help-en/AdminDoc/06云服务管理/#服务目录申请)
+viii. 服务申请：参照[服务目录申请](https://cloudchef.github.io/doc/AdminDoc/06云服务管理/#服务目录申请)
 
-ix. 服务部署运维操作：参照[服务部署运维操作](http://CMP-PUBLIC-IP/help-en/AdminDoc/06云服务管理/我的部署.html#服务部署运维操作)
+ix. 服务部署运维操作：参照[服务部署运维操作](https://cloudchef.github.io/doc/AdminDoc/06云服务管理/我的部署.html#服务部署运维操作)
 
-x.  云主机相关运维操作：参照[云主机运维操作](http://CMP-PUBLIC-IP/help-en/AdminDoc/06云服务管理/我的部署.html#云主机运维操作) 
+x.  云主机相关运维操作：参照[云主机运维操作](https://cloudchef.github.io/doc/AdminDoc/06云服务管理/我的部署.html#云主机运维操作) 
 
 
 
 ## AWS服务{#AWS服务}
 
-i.  添加AWS云平台：参照[添加AWS云平台](http://CMP-PUBLIC-IP/help-en/AdminDoc/03基础设施管理/云平台管理.html#添加AWS云平台)
+i.  添加AWS云平台：参照[添加AWS云平台](https://cloudchef.github.io/doc/AdminDoc/03基础设施管理/云平台管理.html#添加AWS云平台)
 
-ii. 添加AWS资源池：参照[添加AWS资源池](http://CMP-PUBLIC-IP/help-en/AdminDoc/03基础设施管理/资源池管理.html#添加AWS资源池)
+ii. 添加AWS资源池：参照[添加AWS资源池](https://cloudchef.github.io/doc/AdminDoc/03基础设施管理/资源池管理.html#添加AWS资源池)
 
-iii. 添加业务组与资源池的关联：参照[业务组添加资源池](http://CMP-PUBLIC-IP/help-en/AdminDoc/04组织架构管理/业务组.html#业务组添加资源池)
-
-
-xiv. 配置虚拟机模板(AWS虚拟机模板配置与Azure的配置步骤相似)：参照[添加一个Azure虚拟机模板](http://CMP-PUBLIC-IP/help-en/AdminDoc/03基础设施管理/虚拟机模板.html#添加Azure虚拟机模板)
-
-xv. 定义计算规格(AWS计算规格以及云平台规格的定义与Azure相似)：参照[添加Azure计算规格](http://CMP-PUBLIC-IP/help-en/AdminDoc/03基础设施管理/计算规格.html#添加Azure计算规格)
+iii. 添加业务组与资源池的关联：参照[业务组添加资源池](https://cloudchef.github.io/doc/AdminDoc/04组织架构管理/业务组.html#业务组添加资源池)
 
 
-iv. 创建AWS蓝图：参照[创建AWS蓝图](http://CMP-PUBLIC-IP/help-en/AdminDoc/05服务建模/蓝图设计.html#创建AWS蓝图)
+xiv. 配置虚拟机模板(AWS虚拟机模板配置与Azure的配置步骤相似)：参照[添加一个Azure虚拟机模板](https://cloudchef.github.io/doc/AdminDoc/03基础设施管理/虚拟机模板.html#添加Azure虚拟机模板)
 
-v.  配置AWS服务：参照[配置AWS服务](http://CMP-PUBLIC-IP/help-en/AdminDoc/05服务建模/服务配置.html#[配置AWS服务)
+xv. 定义计算规格(AWS计算规格以及云平台规格的定义与Azure相似)：参照[添加Azure计算规格](https://cloudchef.github.io/doc/AdminDoc/03基础设施管理/计算规格.html#添加Azure计算规格)
 
-vi. 服务申请：参照[服务目录申请](http://CMP-PUBLIC-IP/help-en/AdminDoc/06云服务管理/#服务目录申请)
 
-vii. 服务部署运维操作：参照[服务部署运维操作](http://CMP-PUBLIC-IP/help-en/AdminDoc/06云服务管理/我的部署.html#服务部署运维操作)
+iv. 创建AWS蓝图：参照[创建AWS蓝图](https://cloudchef.github.io/doc/AdminDoc/05服务建模/蓝图设计.html#创建AWS蓝图)
 
-viii. 云主机相关运维操作：参照[云主机运维操作](http://CMP-PUBLIC-IP/help-en/AdminDoc/06云服务管理/我的部署.html#云主机运维操作) 
+v.  配置AWS服务：参照[配置AWS服务](https://cloudchef.github.io/doc/AdminDoc/05服务建模/服务配置.html#[配置AWS服务)
+
+vi. 服务申请：参照[服务目录申请](https://cloudchef.github.io/doc/AdminDoc/06云服务管理/#服务目录申请)
+
+vii. 服务部署运维操作：参照[服务部署运维操作](https://cloudchef.github.io/doc/AdminDoc/06云服务管理/我的部署.html#服务部署运维操作)
+
+viii. 云主机相关运维操作：参照[云主机运维操作](https://cloudchef.github.io/doc/AdminDoc/06云服务管理/我的部署.html#云主机运维操作) 
 
 ## 青云服务{#青云服务}
 
-i.  添加青云云平台：参照[添加青云云平台](http://CMP-PUBLIC-IP/help-en/AdminDoc/03基础设施管理/云平台管理.html#添加青云云平台)
+i.  添加青云云平台：参照[添加青云云平台](https://cloudchef.github.io/doc/AdminDoc/03基础设施管理/云平台管理.html#添加青云云平台)
 
-ii. 添加青云资源池：参照[添加青云资源池](http://CMP-PUBLIC-IP/help-en/AdminDoc/03基础设施管理/资源池管理.html#)
+ii. 添加青云资源池：参照[添加青云资源池](https://cloudchef.github.io/doc/AdminDoc/03基础设施管理/资源池管理.html#)
 
-iii. 添加业务组与资源池的关联：参照[业务组添加资源池](http://CMP-PUBLIC-IP/help-en/AdminDoc/04组织架构管理/业务组.html#业务组添加资源池)
+iii. 添加业务组与资源池的关联：参照[业务组添加资源池](https://cloudchef.github.io/doc/AdminDoc/04组织架构管理/业务组.html#业务组添加资源池)
 
-xvi. 配置虚拟机模板(青云虚拟机模板配置与Azure的配置步骤相似)：参照[添加一个Azure虚拟机模板](http://CMP-PUBLIC-IP/help-en/AdminDoc/03基础设施管理/虚拟机模板.html#添加Azure虚拟机模板)
+xvi. 配置虚拟机模板(青云虚拟机模板配置与Azure的配置步骤相似)：参照[添加一个Azure虚拟机模板](https://cloudchef.github.io/doc/AdminDoc/03基础设施管理/虚拟机模板.html#添加Azure虚拟机模板)
 
-xvii. 定义计算规格(青云计算规格以及云平台规格的定义与Azure相似)：参照[添加Azure计算规格](http://CMP-PUBLIC-IP/help-en/AdminDoc/03基础设施管理/计算规格.html#添加Azure计算规格)
+xvii. 定义计算规格(青云计算规格以及云平台规格的定义与Azure相似)：参照[添加Azure计算规格](https://cloudchef.github.io/doc/AdminDoc/03基础设施管理/计算规格.html#添加Azure计算规格)
 
 
-iv. 创建青云蓝图：参照[创建青云蓝图](http://CMP-PUBLIC-IP/help-en/AdminDoc/05服务建模/蓝图设计.html#创建青云蓝图)
+iv. 创建青云蓝图：参照[创建青云蓝图](https://cloudchef.github.io/doc/AdminDoc/05服务建模/蓝图设计.html#创建青云蓝图)
 
-v.  配置青云服务：参照[配置青云服务](http://CMP-PUBLIC-IP/help-en/AdminDoc/05服务建模/服务配置.html#配置青云服务)
+v.  配置青云服务：参照[配置青云服务](https://cloudchef.github.io/doc/AdminDoc/05服务建模/服务配置.html#配置青云服务)
 
-vi. 服务申请：参照[服务目录申请](http://CMP-PUBLIC-IP/help-en/AdminDoc/06云服务管理/#服务目录申请)
+vi. 服务申请：参照[服务目录申请](https://cloudchef.github.io/doc/AdminDoc/06云服务管理/#服务目录申请)
 
-vii. 服务部署运维操作：参照[服务部署运维操作](http://CMP-PUBLIC-IP/help-en/AdminDoc/06云服务管理/我的部署.html#服务部署运维操作)
+vii. 服务部署运维操作：参照[服务部署运维操作](https://cloudchef.github.io/doc/AdminDoc/06云服务管理/我的部署.html#服务部署运维操作)
 
-viii. 云主机相关运维操作：参照[云主机运维操作](http://CMP-PUBLIC-IP/help-en/AdminDoc/06云服务管理/我的部署.html#云主机运维操作) 
+viii. 云主机相关运维操作：参照[云主机运维操作](https://cloudchef.github.io/doc/AdminDoc/06云服务管理/我的部署.html#云主机运维操作) 
 
 
 ## Hyper-V服务{#Hyper-V服务}
 
-i.  添加Hyper-V云平台：参照[添加Hyper-V云平台](http://CMP-PUBLIC-IP/help-en/AdminDoc/03基础设施管理/云平台管理.html#添加Hyper-V云平台)
+i.  添加Hyper-V云平台：参照[添加Hyper-V云平台](https://cloudchef.github.io/doc/AdminDoc/03基础设施管理/云平台管理.html#添加Hyper-V云平台)
 
-ii. 添加Hyper-V资源池：参照[添加Hyper-V资源池](http://CMP-PUBLIC-IP/help-en/AdminDoc/03基础设施管理/资源池管理.html#)
+ii. 添加Hyper-V资源池：参照[添加Hyper-V资源池](https://cloudchef.github.io/doc/AdminDoc/03基础设施管理/资源池管理.html#)
 
-iii. 添加业务组与资源池的关联：参照[业务组添加资源池](http://CMP-PUBLIC-IP/help-en/AdminDoc/04组织架构管理/业务组.html#业务组添加资源池)
+iii. 添加业务组与资源池的关联：参照[业务组添加资源池](https://cloudchef.github.io/doc/AdminDoc/04组织架构管理/业务组.html#业务组添加资源池)
 
-iv. 配置虚拟机模板：参照[添加Hyper-V虚拟机模板](http://CMP-PUBLIC-IP/help-en/AdminDoc/03基础设施管理/虚拟机模板.html#添加Hyper-V虚拟机模板)
+iv. 配置虚拟机模板：参照[添加Hyper-V虚拟机模板](https://cloudchef.github.io/doc/AdminDoc/03基础设施管理/虚拟机模板.html#添加Hyper-V虚拟机模板)
 
-v.  定义计算规格(Hyper-V计算规格定义与vSphere相似)：参照[添加vSphere计算规格](http://CMP-PUBLIC-IP/help-en/AdminDoc/03基础设施管理/计算规格.html#添加vSphere计算规格)
+v.  定义计算规格(Hyper-V计算规格定义与vSphere相似)：参照[添加vSphere计算规格](https://cloudchef.github.io/doc/AdminDoc/03基础设施管理/计算规格.html#添加vSphere计算规格)
 
-vi. 创建Hyper-V 蓝图：参照[创建Hyper-V蓝图](http://CMP-PUBLIC-IP/help-en/AdminDoc/05服务建模/蓝图设计.html#创建Hyper-V蓝图)
+vi. 创建Hyper-V 蓝图：参照[创建Hyper-V蓝图](https://cloudchef.github.io/doc/AdminDoc/05服务建模/蓝图设计.html#创建Hyper-V蓝图)
 
-vii. 配置Hyper-V服务：参照[配置Hyper-V服务](http://CMP-PUBLIC-IP/help-en/AdminDoc/05服务建模/服务配置.html#配置Hyper-V服务)
+vii. 配置Hyper-V服务：参照[配置Hyper-V服务](https://cloudchef.github.io/doc/AdminDoc/05服务建模/服务配置.html#配置Hyper-V服务)
 
-viii. 服务申请：参照[服务目录申请](http://CMP-PUBLIC-IP/help-en/AdminDoc/06云服务管理/#服务目录申请)
+viii. 服务申请：参照[服务目录申请](https://cloudchef.github.io/doc/AdminDoc/06云服务管理/#服务目录申请)
 
-ix. 服务部署运维操作：参照[服务部署运维操作](http://CMP-PUBLIC-IP/help-en/AdminDoc/06云服务管理/我的部署.html#服务部署运维操作) 
+ix. 服务部署运维操作：参照[服务部署运维操作](https://cloudchef.github.io/doc/AdminDoc/06云服务管理/我的部署.html#服务部署运维操作) 
 
-x.  云主机相关运维操作：参照[云主机运维操作](http://CMP-PUBLIC-IP/help-en/AdminDoc/06云服务管理/我的部署.html#云主机运维操作) 
+x.  云主机相关运维操作：参照[云主机运维操作](https://cloudchef.github.io/doc/AdminDoc/06云服务管理/我的部署.html#云主机运维操作) 
 
 ## F5服务{#F5服务}
 
@@ -1108,16 +1108,16 @@ x.  云主机相关运维操作：参照[云主机运维操作](http://CMP-PUBLI
 
 您可以通过以下步骤部署F5服务：
 
-i.  添加F5 BIG-IP云平台：参照[添加F5 BIG-IP云平台](http://CMP-PUBLIC-IP/help-en/AdminDoc/03基础设施管理/云平台管理.html#添加F5BIG-IP云平台)
+i.  添加F5 BIG-IP云平台：参照[添加F5 BIG-IP云平台](https://cloudchef.github.io/doc/AdminDoc/03基础设施管理/云平台管理.html#添加F5BIG-IP云平台)
 
-ii. 添加IP池：参照[添加IP池](http://CMP-PUBLIC-IP/help-en/AdminDoc/03基础设施管理/IP地址管理.html#添加IP池)
+ii. 添加IP池：参照[添加IP池](https://cloudchef.github.io/doc/AdminDoc/03基础设施管理/IP地址管理.html#添加IP池)
 
-iii. 创建F5 BIG-IP资源池：参照[创建F5 BIG-IP资源池](http://CMP-PUBLIC-IP/help-en/AdminDoc/03基础设施管理/资源池管理.html#创建F5BIG-IP资源池)
+iii. 创建F5 BIG-IP资源池：参照[创建F5 BIG-IP资源池](https://cloudchef.github.io/doc/AdminDoc/03基础设施管理/资源池管理.html#创建F5BIG-IP资源池)
 
-iv. 创建F5 BIG-IP资源池与业务组的关联：参照[业务组添加资源池](http://CMP-PUBLIC-IP/help-en/AdminDoc/04组织架构管理/业务组.html#业务组添加资源池)
+iv. 创建F5 BIG-IP资源池与业务组的关联：参照[业务组添加资源池](https://cloudchef.github.io/doc/AdminDoc/04组织架构管理/业务组.html#业务组添加资源池)
 
-v.  创建F5蓝图：参照[创建F5与OpenStack组合蓝图](http://CMP-PUBLIC-IP/help-en/AdminDoc/05服务建模/蓝图设计.html#创建F5与OpenStack组合蓝图)
+v.  创建F5蓝图：参照[创建F5与OpenStack组合蓝图](https://cloudchef.github.io/doc/AdminDoc/05服务建模/蓝图设计.html#创建F5与OpenStack组合蓝图)
 
-vi. 配置F5服务：参照[配置F5与OpenStack组合蓝图](http://CMP-PUBLIC-IP/help-en/AdminDoc/05服务建模/服务配置.html#配置F5与OpenStack组合蓝图)
+vi. 配置F5服务：参照[配置F5与OpenStack组合蓝图](https://cloudchef.github.io/doc/AdminDoc/05服务建模/服务配置.html#配置F5与OpenStack组合蓝图)
 
-vii. F5服务部署运维操作：参照[ 服务部署运维操作](http://CMP-PUBLIC-IP/help-en/AdminDoc/06云服务管理/我的部署.html#服务部署运维操作) 
+vii. F5服务部署运维操作：参照[ 服务部署运维操作](https://cloudchef.github.io/doc/AdminDoc/06云服务管理/我的部署.html#服务部署运维操作) 
