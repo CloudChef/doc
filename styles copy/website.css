@@ -1,0 +1,101 @@
+
+.book-logo img{
+    width:100%;
+}
+p img{
+display: block;
+margin: 0 auto;
+}
+figcaption {
+display: block;
+text-align: center;
+margin:20px;
+  }
+/* a {
+font-size:16px
+}  */
+/* a:link {color:#000000; text-decoration:none;} 
+a:active:{color: #000000; } 
+a:visited {color:#000000;text-decoration:none;} 
+a:hover {color: blue; text-decoration:none;}  */
+table
+{
+font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+width:100%;
+border-collapse:collapse;
+}
+
+td,th 
+{
+font-size:1em;
+border:1px solid #E6F7FF;
+padding:3px 7px 2px 7px;
+}
+
+th 
+{
+font-size:1.1em;
+text-align:left;
+padding-top:5px;
+padding-bottom:4px;
+background-color:#0084f0;
+color:#ffffff;
+}
+
+tr,td 
+{
+color:#000000;
+background-color:#E6F7FF;
+}
+/* li{
+padding-bottom: 5px;
+} */
+/* .third{
+padding-left: 15px;
+} */
+.book-header h1{
+  display:none!important;
+}
+#book-search-input input, #book-search-input input:focus, #book-search-input input:hover
+{
+  border: #2472a4 2px solid!important;
+  border-radius: 50px;
+  padding: 6px 12px;
+}
+#book-search-input{
+ 
+  margin-bottom: 20px!important;
+ margin-top: 10px!important;
+ border-top: none!important;
+
+}
+.book-summary ul.summary{
+  padding-left: 20px;
+  }
+.gitbook-link{
+  display:none!important;
+}
+.book .book-summary .book-logo{
+  padding-bottom: 0px;
+}
+.book-summary ul.summary li.header{
+  font-size: 1.2em;
+}
+.page-inner{
+  max-width: 80%!important;
+  margin: 0px 100px;
+}
+strong{
+  display: block!important;
+  font-size: 1.8em!important;
+  margin: 10px 0!important;
+}
+.markdown-section h1 {
+  font-size: 1.5em!important;
+}
+.markdown-section h2 {
+  font-size: 1.3em!important;
+}
+.markdown-section p {
+  margin-bottom: 2px!important;
+}
