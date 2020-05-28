@@ -29,7 +29,7 @@ SmartCMP支持多样的服务，典型的两种服务使用场景，其一是使
 # 登录系统
 
 
-浏览器输入SmartCMP的IP，例如：http://cmp.smartcmp.online:1688/#/login
+浏览器输入SmartCMP的IP，例如：http：//SmartCMP-Public-IP/#/login
 
 输入用户名和密码。
 
