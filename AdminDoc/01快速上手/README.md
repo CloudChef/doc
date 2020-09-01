@@ -803,9 +803,9 @@ vii. 配置vSphere单节点服务：参照[ 配置vSphere单节点服务](https:
 
 viii. 服务申请：参照[服务目录申请](https://cloudchef.github.io/doc/AdminDoc/06云服务管理/#服务目录申请)
 
-ix. 服务部署运维操作：参照[服务部署运维操作](https://cloudchef.github.io/doc/AdminDoc/06云服务管理/我的部署.html#服务部署运维操作) 
+ix. 服务部署运维操作：参照[服务部署运维操作](https://cloudchef.github.io/doc/AdminDoc/14我的部署/服务部署.html#服务部署运维操作) 
 
-x.  云主机相关运维操作：参照[云主机运维操作](https://cloudchef.github.io/doc/AdminDoc/06云服务管理/我的部署.html#云主机运维操作) 
+x.  云主机相关运维操作：参照[云主机运维操作](https://cloudchef.github.io/doc/AdminDoc/14我的部署/云主机.html#云主机运维操作) 
 
 ## VMwareNSX服务{#VMwareNSX服务}
 
@@ -827,9 +827,9 @@ viii. 配置VMware NSX服务：参照[ 配置VMware NSX服务](https://cloudchef
 
 ix. 服务申请：参照[ 服务目录申请](https://cloudchef.github.io/doc/AdminDoc/06云服务管理/#服务目录申请)
 
-x.  服务部署运维操作：参照[服务部署运维操作](https://cloudchef.github.io/doc/AdminDoc/06云服务管理/我的部署.html#服务部署运维操作) 
+x.  服务部署运维操作：参照[服务部署运维操作](https://cloudchef.github.io/doc/AdminDoc/14我的部署/服务部署.html#服务部署运维操作) 
 
-xi. 云主机相关运维操作：参照[云主机运维操作](https://cloudchef.github.io/doc/AdminDoc/06云服务管理/我的部署.html#云主机运维操作) 
+xi. 云主机相关运维操作：参照[云主机运维操作](https://cloudchef.github.io/doc/AdminDoc/14我的部署/云主机.html#云主机运维操作) 
 
 ## vSphereMySQL带监控服务{#vSphereMysql带监控服务}
 
@@ -849,9 +849,9 @@ vii. 配置vSphereMySQL带监控服务：参照[配置vSphereMySQL带监控服�
 
 viii. 服务申请：参照[ 服务目录申请](https://cloudchef.github.io/doc/AdminDoc/06云服务管理/#服务目录申请)
 
-ix. 服务部署运维操作：参照[ 服务部署运维操作](https://cloudchef.github.io/doc/AdminDoc/06云服务管理/我的部署.html#服务部署运维操作)
+ix. 服务部署运维操作：参照[ 服务部署运维操作](https://cloudchef.github.io/doc/AdminDoc/14我的部署/服务部署.html#服务部署运维操作)
 
-x.  云主机相关运维操作：参照[云主机运维操作](https://cloudchef.github.io/doc/AdminDoc/06云服务管理/我的部署.html#云主机运维操作) 
+x.  云主机相关运维操作：参照[云主机运维操作](https://cloudchef.github.io/doc/AdminDoc/14我的部署/云主机.html#云主机运维操作) 
 
 ## OpenStack单节点服务{#OpenStack单节点服务}
 
@@ -871,9 +871,9 @@ vii. 配置OpenStack单节点服务：参照[配置OpenStack单节点服务](htt
 
 viii. 服务申请：参照[ 服务目录申请](https://cloudchef.github.io/doc/AdminDoc/06云服务管理/#服务目录申请)
 
-ix. 服务部署运维操作：参照[服务部署运维操作](https://cloudchef.github.io/doc/AdminDoc/06云服务管理/我的部署.html#服务部署运维操作) 
+ix. 服务部署运维操作：参照[服务部署运维操作](https://cloudchef.github.io/doc/AdminDoc/14我的部署/服务部署.html#服务部署运维操作) 
 
-x.  云主机相关运维操作：参照[云主机运维操作](https://cloudchef.github.io/doc/AdminDoc/06云服务管理/我的部署.html#云主机运维操作) 
+x.  云主机相关运维操作：参照[云主机运维操作](https://cloudchef.github.io/doc/AdminDoc/14我的部署/云主机.html#云主机运维操作) 
 
 ## OpenStackFirewall服务{#OpenStackFirewall服务}
 
@@ -894,7 +894,7 @@ v.  配置OpenStack Firewall服务：参照[ 配置OpenStackFirewall服务](http
 
 vi. 服务申请：参照[ 服务目录申请](https://cloudchef.github.io/doc/AdminDoc/06云服务管理/#服务目录申请)
 
-vii. 服务部署运维操作：参照[服务部署运维操作](https://cloudchef.github.io/doc/AdminDoc/06云服务管理/我的部署.html#服务部署运维操作) 
+vii. 服务部署运维操作：参照[服务部署运维操作](https://cloudchef.github.io/doc/AdminDoc/14我的部署/服务部署.html#服务部署运维操作) 
 
 
 
@@ -916,9 +916,9 @@ vi. 配置OpenStack LoadBalancer with SecuriryGruop服务：参照[配置OpenSta
 
 vii. 服务申请：参照[ 服务目录申请](https://cloudchef.github.io/doc/AdminDoc/06云服务管理/#服务目录申请)
 
-viii. 服务部署运维操作：参照[服务部署运维操作](https://cloudchef.github.io/doc/AdminDoc/06云服务管理/我的部署.html#服务部署运维操作) 
+viii. 服务部署运维操作：参照[服务部署运维操作](https://cloudchef.github.io/doc/AdminDoc/14我的部署/服务部署.html#服务部署运维操作) 
 
-ix. 云主机相关运维操作：参照[云主机运维操作](https://cloudchef.github.io/doc/AdminDoc/06云服务管理/我的部署.html#云主机运维操作) 
+ix. 云主机相关运维操作：参照[云主机运维操作](https://cloudchef.github.io/doc/AdminDoc/14我的部署/云主机.html#云主机运维操作) 
 
 
 
@@ -940,7 +940,7 @@ vii. 配置OpenStack Firewall服务：参照[ 配置OpenStackFloatingIP服务](h
 
 viii. 服务申请：参照[ 服务目录申请](https://cloudchef.github.io/doc/AdminDoc/06云服务管理/#服务目录申请)
 
-ix. 服务部署运维操作：参照[服务部署运维操作](https://cloudchef.github.io/doc/AdminDoc/06云服务管理/我的部署.html#服务部署运维操作) 
+ix. 服务部署运维操作：参照[服务部署运维操作](https://cloudchef.github.io/doc/AdminDoc/14我的部署/服务部署.html#服务部署运维操作) 
 
 
 
@@ -962,7 +962,7 @@ vii. 配置OpenStack DNS服务：参照[ 配置OpenStack DNS服务](https://clou
 
 viii. 服务申请：参照[ 服务目录申请](https://cloudchef.github.io/doc/AdminDoc/06云服务管理/#服务目录申请)
 
-ix. 服务部署运维操作：参照[服务部署运维操作](https://cloudchef.github.io/doc/AdminDoc/06云服务管理/我的部署.html#服务部署运维操作) 
+ix. 服务部署运维操作：参照[服务部署运维操作](https://cloudchef.github.io/doc/AdminDoc/14我的部署/服务部署.html#服务部署运维操作) 
 
 
 
@@ -980,7 +980,7 @@ v.  配置Kubernetes服务：参照[ 配置Kubernetes服务](https://cloudchef.g
 
 vi. 服务申请：参照[ 服务目录申请](https://cloudchef.github.io/doc/AdminDoc/06云服务管理/#服务目录申请)
 
-vii. 服务部署运维操作：参照[服务部署运维操作](https://cloudchef.github.io/doc/AdminDoc/06云服务管理/我的部署.html#服务部署运维操作) 
+vii. 服务部署运维操作：参照[服务部署运维操作](https://cloudchef.github.io/doc/AdminDoc/14我的部署/服务部署.html#服务部署运维操作) 
 
 
 
@@ -1002,9 +1002,9 @@ vii. 配置阿里云服务：参照[配置阿里云服务](https://cloudchef.git
 
 viii. 服务申请：参照[服务目录申请](https://cloudchef.github.io/doc/AdminDoc/06云服务管理/#服务目录申请)
 
-ix. 服务部署运维操作：参照[服务部署运维操作](https://cloudchef.github.io/doc/AdminDoc/06云服务管理/我的部署.html#服务部署运维操作)
+ix. 服务部署运维操作：参照[服务部署运维操作](https://cloudchef.github.io/doc/AdminDoc/14我的部署/服务部署.html#服务部署运维操作)
 
-x.  云主机相关运维操作：参照[云主机运维操作](https://cloudchef.github.io/doc/AdminDoc/06云服务管理/我的部署.html#云主机运维操作) 
+x.  云主机相关运维操作：参照[云主机运维操作](https://cloudchef.github.io/doc/AdminDoc/14我的部署/云主机.html#云主机运维操作) 
 
 ## Azure服务{#Azure服务}
 
@@ -1024,9 +1024,9 @@ vii. 配置Azure服务：参照[配置Azure服务](https://cloudchef.github.io/d
 
 viii. 服务申请：参照[服务目录申请](https://cloudchef.github.io/doc/AdminDoc/06云服务管理/#服务目录申请)
 
-ix. 服务部署运维操作：参照[服务部署运维操作](https://cloudchef.github.io/doc/AdminDoc/06云服务管理/我的部署.html#服务部署运维操作)
+ix. 服务部署运维操作：参照[服务部署运维操作](https://cloudchef.github.io/doc/AdminDoc/14我的部署/服务部署.html#服务部署运维操作)
 
-x.  云主机相关运维操作：参照[云主机运维操作](https://cloudchef.github.io/doc/AdminDoc/06云服务管理/我的部署.html#云主机运维操作) 
+x.  云主机相关运维操作：参照[云主机运维操作](https://cloudchef.github.io/doc/AdminDoc/14我的部署/云主机.html#云主机运维操作) 
 
 
 
@@ -1050,9 +1050,9 @@ v.  配置AWS服务：参照[配置AWS服务](https://cloudchef.github.io/doc/Ad
 
 vi. 服务申请：参照[服务目录申请](https://cloudchef.github.io/doc/AdminDoc/06云服务管理/#服务目录申请)
 
-vii. 服务部署运维操作：参照[服务部署运维操作](https://cloudchef.github.io/doc/AdminDoc/06云服务管理/我的部署.html#服务部署运维操作)
+vii. 服务部署运维操作：参照[服务部署运维操作](https://cloudchef.github.io/doc/AdminDoc/14我的部署/服务部署.html#服务部署运维操作)
 
-viii. 云主机相关运维操作：参照[云主机运维操作](https://cloudchef.github.io/doc/AdminDoc/06云服务管理/我的部署.html#云主机运维操作) 
+viii. 云主机相关运维操作：参照[云主机运维操作](https://cloudchef.github.io/doc/AdminDoc/14我的部署/云主机.html#云主机运维操作) 
 
 ## 青云服务{#青云服务}
 
@@ -1073,9 +1073,9 @@ v.  配置青云服务：参照[配置青云服务](https://cloudchef.github.io/
 
 vi. 服务申请：参照[服务目录申请](https://cloudchef.github.io/doc/AdminDoc/06云服务管理/#服务目录申请)
 
-vii. 服务部署运维操作：参照[服务部署运维操作](https://cloudchef.github.io/doc/AdminDoc/06云服务管理/我的部署.html#服务部署运维操作)
+vii. 服务部署运维操作：参照[服务部署运维操作](https://cloudchef.github.io/doc/AdminDoc/14我的部署/服务部署.html#服务部署运维操作)
 
-viii. 云主机相关运维操作：参照[云主机运维操作](https://cloudchef.github.io/doc/AdminDoc/06云服务管理/我的部署.html#云主机运维操作) 
+viii. 云主机相关运维操作：参照[云主机运维操作](https://cloudchef.github.io/doc/AdminDoc/14我的部署/云主机.html#云主机运维操作) 
 
 
 ## Hyper-V服务{#Hyper-V服务}
@@ -1096,9 +1096,9 @@ vii. 配置Hyper-V服务：参照[配置Hyper-V服务](https://cloudchef.github.
 
 viii. 服务申请：参照[服务目录申请](https://cloudchef.github.io/doc/AdminDoc/06云服务管理/#服务目录申请)
 
-ix. 服务部署运维操作：参照[服务部署运维操作](https://cloudchef.github.io/doc/AdminDoc/06云服务管理/我的部署.html#服务部署运维操作) 
+ix. 服务部署运维操作：参照[服务部署运维操作](https://cloudchef.github.io/doc/AdminDoc/14我的部署/服务部署.html#服务部署运维操作) 
 
-x.  云主机相关运维操作：参照[云主机运维操作](https://cloudchef.github.io/doc/AdminDoc/06云服务管理/我的部署.html#云主机运维操作) 
+x.  云主机相关运维操作：参照[云主机运维操作](https://cloudchef.github.io/doc/AdminDoc/14我的部署/云主机.html#云主机运维操作) 
 
 ## F5服务{#F5服务}
 
@@ -1123,4 +1123,4 @@ v.  创建F5蓝图：参照[创建F5与OpenStack组合蓝图](https://cloudchef.
 
 vi. 配置F5服务：参照[配置F5与OpenStack组合蓝图](https://cloudchef.github.io/doc/AdminDoc/05服务建模/服务配置.html#配置F5与OpenStack组合蓝图)
 
-vii. F5服务部署运维操作：参照[ 服务部署运维操作](https://cloudchef.github.io/doc/AdminDoc/06云服务管理/我的部署.html#服务部署运维操作) 
+vii. F5服务部署运维操作：参照[ 服务部署运维操作](https://cloudchef.github.io/doc/AdminDoc/14我的部署/服务部署.html#服务部署运维操作) 
