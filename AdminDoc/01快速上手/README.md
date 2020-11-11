@@ -25,27 +25,285 @@
 
 　　由于各个云平台的差异，SmartCMP云管平台对于各个云平台所支持的资源类型有所不同。下表列出了目前SmartCMP对于各个云平台能够支持的云资源部署类型（Y表示支持，空白表示暂不支持）。
 
-|云资源类型|阿里云|Azure|AWS|华为云|腾讯云|金山云|青云|GCP|UCloud|vSphere+NSX|OpenStack|
-|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|
-  |虚拟机|  Y  |  Y  |  Y  |  Y  |  Y  |  Y  |  Y  |  Y  |  Y  |  Y  |  Y  |
-  |弹性伸缩组|  Y  |    |    |    |    |    |    |    |    |    |    |
-	|磁盘|  Y  |  Y  |  Y  |  Y  |  Y  |  Y  |  Y  |    |    |  Y  |  Y  |
-	|对象存储|  Y  |  Y  |  Y  |    |  Y  |    |    |    |    |    |    |
-	|文件共享存储NAS|  Y  |    |    |    |    |    |    |    |    |    |    |
-	|公网IP|  Y  |  Y  |  Y  |    |    |    |    |    |    |    |    |
-  |弹性公网IP或浮动IP|  Y  |    |  Y  |  Y  |  Y  |  Y  |    |    |    |    |    | 
-	|安全组|  Y  |  Y  |  Y  |  Y  |  Y  |  Y  |  Y  |  Y  |  Y  |  Y  |  Y  |
-	|防火墙|    |    |    |    |    |    |    |    |    |  Y  |  Y  |
-	|虚拟网络VPC|  Y  |  Y  |    |    |  Y  |  Y  |    |    |    |  Y  |  Y  |
-  |虚拟交换机或者子网|  Y  |  Y  |    |    |  Y  |  Y  |    |    |    |    |    |
-  |负载均衡器|  Y  |  Y  |    |  Y  |    |    |    |    |    |  Y  |  Y  |
-  |路由器|    |    |    |    |    |    |    |    |    |  Y  |  Y  |
-  |Edge Network|    |    |    |    |    |    |    |    |    |  Y  |    |
-  |域名DNS|    |    |    |    |    |    |    |    |    |    |  Y  |
-  |关系型数据库RDS|  Y  |  Y  |  Y  |    |    |    |  Y  |    |    |    |    |
-  |Redis|  Y  |  Y  |    |    |    |    |  Y  |    |    |    |    |
-  |Kubernetes群集|  Y  |  Y  |    |    |    |    |    |    |    |    |    |    |
 
+<table>
+   <tr>
+      <td rowspan="2" p align="center" style="font-weight:bold" >分类</td>
+      <td rowspan="2" p align="center" style="font-weight:bold"  >云资源类型</td>
+      <td colspan="9" p align="center" style="font-weight:bold" >公有云</td>
+      <td colspan="2" p align="center" style="font-weight:bold" >私有云</td>
+   </tr>
+   <tr>
+      <td p align="center" style="font-weight:bold" >阿里云 </td>
+      <td p align="center" style="font-weight:bold" >Azure</td>
+      <td p align="center" style="font-weight:bold" >AWS</td>
+      <td p align="center" style="font-weight:bold" >华为云</td>
+      <td p align="center" style="font-weight:bold" >腾讯云</td>
+      <td p align="center" style="font-weight:bold" >金山云</td>
+      <td p align="center" style="font-weight:bold" >青云</td>
+      <td p align="center" style="font-weight:bold" >GCP</td>
+      <td p align="center" style="font-weight:bold" >UCloud</td>
+      <td p align="center" style="font-weight:bold" >vSphere+NSX</td>
+      <td p align="center" style="font-weight:bold" >OpenStack</td>
+   </tr>
+   <tr>
+      <td rowspan="2" p align="center" >计算</td> 
+      <td p align="center" >虚拟机</td>
+      <td p align="center">Y</td>
+      <td p align="center">Y</td>
+      <td p align="center">Y</td>
+      <td p align="center">Y</td>
+      <td p align="center">Y</td>
+      <td p align="center">Y</td>
+      <td p align="center">Y</td>
+      <td p align="center">Y</td>
+      <td p align="center">Y</td>
+      <td p align="center">Y</td>
+      <td p align="center">Y</td>
+   </tr>
+   <tr>
+      <td p align="center" >弹性伸缩组</td>
+      <td p align="center">Y</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+   </tr>
+   <tr>
+      <td p align="center" rowspan="3">存储</td>
+      <td p align="center" >磁盘</td>
+      <td p align="center">Y</td>
+      <td p align="center">Y</td>
+      <td p align="center">Y</td>
+      <td p align="center">Y</td>
+      <td p align="center">Y</td>
+      <td p align="center">Y</td>
+      <td p align="center">Y</td>
+      <td></td>
+      <td></td>
+      <td p align="center">Y</td>
+      <td p align="center">Y</td>
+   </tr>
+   <tr>
+      <td p align="center" >对象存储</td>
+      <td p align="center">Y</td>
+      <td p align="center">Y</td>
+      <td p align="center">Y</td>
+      <td></td>
+      <td p align="center">Y</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+   </tr>
+   <tr>
+      <td p align="center" >文件共享存储NAS</td>
+      <td p align="center">Y</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+   </tr>
+   <tr>
+      <td p align="center" rowspan="10">网络</td>
+      <td p align="center" >公网IP</td>
+      <td p align="center">Y</td>
+      <td p align="center">Y</td>
+      <td p align="center">Y</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+   </tr>
+   <tr>
+      <td p align="center" >弹性公网IP或浮动IP</td>
+      <td p align="center">Y</td>
+      <td></td>
+      <td p align="center">Y</td>
+      <td p align="center">Y</td>
+      <td p align="center">Y</td>
+      <td p align="center">Y</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td p align="center">Y</td>
+   </tr>
+   <tr>
+      <td p align="center" >安全组</td>
+      <td p align="center">Y</td>
+      <td p align="center">Y</td>
+      <td p align="center">Y</td>
+      <td p align="center">Y</td>
+      <td p align="center">Y</td>
+      <td p align="center">Y</td>
+      <td p align="center">Y</td>
+      <td p align="center">Y</td>
+      <td p align="center">Y</td>
+      <td p align="center">Y</td>
+      <td p align="center">Y</td>
+   </tr>
+   <tr>
+      <td p align="center" >防火墙</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td p align="center">Y</td>
+      <td p align="center">Y</td>
+   </tr>
+   <tr>
+      <td p align="center" >虚拟网络VPC </td>
+      <td p align="center">Y</td>
+      <td p align="center">Y</td>
+      <td></td>
+      <td></td>
+      <td p align="center">Y</td>
+      <td p align="center">Y</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td p align="center">Y</td>
+      <td p align="center">Y</td>
+   </tr>
+   <tr>
+      <td p align="center" >虚拟交换机或者子网</td>
+      <td p align="center">Y</td>
+      <td p align="center">Y</td>
+      <td></td>
+      <td></td>
+      <td p align="center">Y</td>
+      <td p align="center">Y</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+   </tr>
+   <tr>
+      <td p align="center" >负载均衡器</td>
+      <td p align="center">Y</td>
+      <td p align="center">Y</td>
+      <td></td>
+      <td p align="center">Y</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td p align="center">Y</td>
+      <td p align="center">Y</td>
+   </tr>
+   <tr>
+      <td p align="center" >路由器</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td p align="center">Y</td>
+      <td p align="center">Y</td>
+   </tr>
+   <tr>
+      <td p align="center" >Edge Network</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td p align="center">Y</td>
+      <td></td>
+   </tr>
+   <tr>
+      <td p align="center" >域名DNS</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td p align="center">Y</td>
+   </tr>
+   <tr>
+      <td rowspan="2" p align="center" >数据库</td>
+      <td p align="center" >关系型数据库RDS</td>
+      <td p align="center">Y</td>
+      <td p align="center">Y</td>
+      <td p align="center">Y</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td p align="center">Y</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+   </tr>
+   <tr>
+      <td p align="center" >Redis</td>
+      <td p align="center">Y</td>
+      <td p align="center">Y</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td p align="center">Y</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+   </tr>
+   <tr>
+      <td p align="center" >容器</td>
+      <td p align="center" >Kubernetes群集</td>
+      <td p align="center">Y</td>
+      <td p align="center">Y</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+   </tr>
+</table>
 
 # SmartCMP快速配置和使用步骤
 
