@@ -34,12 +34,12 @@
 
 
 所需凭据：
-您可以使用系统管理员，租户初始化创建的默认租户用户（admin，bgadmin，或user），或您创建的该租户下的其他用户进行登录。关联不同角色的用户有不同的管理配置和使用权限，详细说明请参考“[角色](https://cloudchef.github.io/doc/foundationConcepts/02组织架构/角色.html)”章节。
+您可以使用系统管理员，租户初始化创建的默认租户用户（admin，bgadmin，或user），或您创建的该租户下的其他用户进行登录。关联不同角色的用户有不同的管理配置和使用权限，详细说明请参考“[角色](http://CMP-PUBLIC-IP/help/foundationConcepts/02组织架构/角色.html)”章节。
 
 
 # 其它租户使用和管理界面
 
-您可以通过Admin管理控制界面创建其他租户。租户提供了资源使用和管理配置的隔离，有关租户的详细说明请参考“[租户](https://cloudchef.github.io/doc/foundationConcepts/02组织架构/租户.html)”章节。
+您可以通过Admin管理控制界面创建其他租户。租户提供了资源使用和管理配置的隔离，有关租户的详细说明请参考“[租户](http://CMP-PUBLIC-IP/help/foundationConcepts/02组织架构/租户.html)”章节。
 
 用途：
  + 接入和管理云平台的资源

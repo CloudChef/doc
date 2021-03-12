@@ -14,7 +14,7 @@ SmartCMP支持多样的服务，典型的两种服务使用场景，其一是使
 2. 需要IT人工介入的服务（例如：申请重新设置密码的手工工单服务）
 
 
->「Note」更多云资源蓝图服务和手工工单服务使用指南请您参考:[云资源蓝图服务使用指南](https://cloudchef.github.io/doc/UserDoc/03云资源服务使用指南/)和[手工工单服务使用指南](https://cloudchef.github.io/doc/UserDoc/04手工工单服务使用指南/)
+>「Note」更多云资源蓝图服务和手工工单服务使用指南请您参考:[云资源蓝图服务使用指南](http://CMP-PUBLIC-IP/help/UserDoc/03云资源服务使用指南/)和[手工工单服务使用指南](http://CMP-PUBLIC-IP/help/UserDoc/04手工工单服务使用指南/)
 
 
 此章内容帮助用户快速上手服务申请操作和自助运维操作。
