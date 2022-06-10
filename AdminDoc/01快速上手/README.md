@@ -20,11 +20,296 @@ SmartCMP是业内领先的云管理平台，提供各行业企业客户一站式
 
   + 多云统一的监控告警：监控不同云平台的云资源和软件运行状况，并进行统一的展现和告警。用户可以基于监控告警去自定义告警触发后操作，支持多种告警通知方式，包括系统通知、钉钉、短信、微信、邮件等。
 
+
+# SmartCMP支持自动化部署的云资源类型
+
+由于各个云平台的差异，SmartCMP云管平台对于各个云平台所支持的资源类型有所不同。下表列出了目前SmartCMP对于各个云平台能够支持的云资源部署类型（Y表示支持，空白表示暂不支持）。
+
+
+<table>
+   <tr>
+      <td rowspan="2" p align="center" style="font-weight:bold" >分类</td>
+      <td rowspan="2" p align="center" style="font-weight:bold"  >云资源类型</td>
+      <td colspan="9" p align="center" style="font-weight:bold" >公有云</td>
+      <td colspan="2" p align="center" style="font-weight:bold" >私有云</td>
+   </tr>
+   <tr>
+      <td p align="center" style="font-weight:bold" >阿里云 </td>
+      <td p align="center" style="font-weight:bold" >Azure</td>
+      <td p align="center" style="font-weight:bold" >AWS</td>
+      <td p align="center" style="font-weight:bold" >华为云</td>
+      <td p align="center" style="font-weight:bold" >腾讯云</td>
+      <td p align="center" style="font-weight:bold" >金山云</td>
+      <td p align="center" style="font-weight:bold" >青云</td>
+      <td p align="center" style="font-weight:bold" >GCP</td>
+      <td p align="center" style="font-weight:bold" >UCloud</td>
+      <td p align="center" style="font-weight:bold" >vSphere+NSX</td>
+      <td p align="center" style="font-weight:bold" >OpenStack</td>
+   </tr>
+   <tr>
+      <td rowspan="2" p align="center" >计算</td> 
+      <td p align="center" >虚拟机</td>
+      <td p align="center">Y</td>
+      <td p align="center">Y</td>
+      <td p align="center">Y</td>
+      <td p align="center">Y</td>
+      <td p align="center">Y</td>
+      <td p align="center">Y</td>
+      <td p align="center">Y</td>
+      <td p align="center">Y</td>
+      <td p align="center">Y</td>
+      <td p align="center">Y</td>
+      <td p align="center">Y</td>
+   </tr>
+   <tr>
+      <td p align="center" >弹性伸缩组</td>
+      <td p align="center">Y</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+   </tr>
+   <tr>
+      <td p align="center" rowspan="3">存储</td>
+      <td p align="center" >磁盘</td>
+      <td p align="center">Y</td>
+      <td p align="center">Y</td>
+      <td p align="center">Y</td>
+      <td p align="center">Y</td>
+      <td p align="center">Y</td>
+      <td p align="center">Y</td>
+      <td p align="center">Y</td>
+      <td></td>
+      <td></td>
+      <td p align="center">Y</td>
+      <td p align="center">Y</td>
+   </tr>
+   <tr>
+      <td p align="center" >对象存储</td>
+      <td p align="center">Y</td>
+      <td p align="center">Y</td>
+      <td p align="center">Y</td>
+      <td></td>
+      <td p align="center">Y</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+   </tr>
+   <tr>
+      <td p align="center" >文件共享存储NAS</td>
+      <td p align="center">Y</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+   </tr>
+   <tr>
+      <td p align="center" rowspan="10">网络</td>
+      <td p align="center" >公网IP</td>
+      <td p align="center">Y</td>
+      <td p align="center">Y</td>
+      <td p align="center">Y</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+   </tr>
+   <tr>
+      <td p align="center" >弹性公网IP或浮动IP</td>
+      <td p align="center">Y</td>
+      <td></td>
+      <td p align="center">Y</td>
+      <td p align="center">Y</td>
+      <td p align="center">Y</td>
+      <td p align="center">Y</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td p align="center">Y</td>
+   </tr>
+   <tr>
+      <td p align="center" >安全组</td>
+      <td p align="center">Y</td>
+      <td p align="center">Y</td>
+      <td p align="center">Y</td>
+      <td p align="center">Y</td>
+      <td p align="center">Y</td>
+      <td p align="center">Y</td>
+      <td p align="center">Y</td>
+      <td p align="center">Y</td>
+      <td p align="center">Y</td>
+      <td p align="center">Y</td>
+      <td p align="center">Y</td>
+   </tr>
+   <tr>
+      <td p align="center" >防火墙</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td p align="center">Y</td>
+      <td p align="center">Y</td>
+   </tr>
+   <tr>
+      <td p align="center" >虚拟网络VPC </td>
+      <td p align="center">Y</td>
+      <td p align="center">Y</td>
+      <td></td>
+      <td></td>
+      <td p align="center">Y</td>
+      <td p align="center">Y</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td p align="center">Y</td>
+      <td p align="center">Y</td>
+   </tr>
+   <tr>
+      <td p align="center" >虚拟交换机或者子网</td>
+      <td p align="center">Y</td>
+      <td p align="center">Y</td>
+      <td></td>
+      <td></td>
+      <td p align="center">Y</td>
+      <td p align="center">Y</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+   </tr>
+   <tr>
+      <td p align="center" >负载均衡器</td>
+      <td p align="center">Y</td>
+      <td p align="center">Y</td>
+      <td></td>
+      <td p align="center">Y</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td p align="center">Y</td>
+      <td p align="center">Y</td>
+   </tr>
+   <tr>
+      <td p align="center" >路由器</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td p align="center">Y</td>
+      <td p align="center">Y</td>
+   </tr>
+   <tr>
+      <td p align="center" >Edge Network</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td p align="center">Y</td>
+      <td></td>
+   </tr>
+   <tr>
+      <td p align="center" >域名DNS</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td p align="center">Y</td>
+   </tr>
+   <tr>
+      <td rowspan="2" p align="center" >数据库</td>
+      <td p align="center" >关系型数据库RDS</td>
+      <td p align="center">Y</td>
+      <td p align="center">Y</td>
+      <td p align="center">Y</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td p align="center">Y</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+   </tr>
+   <tr>
+      <td p align="center" >Redis</td>
+      <td p align="center">Y</td>
+      <td p align="center">Y</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td p align="center">Y</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+   </tr>
+   <tr>
+      <td p align="center" >容器</td>
+      <td p align="center" >Kubernetes群集</td>
+      <td p align="center">Y</td>
+      <td p align="center">Y</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+   </tr>
+</table>
+
 # SmartCMP快速配置和使用步骤
 
 通过如下一些简单的步骤，您可以快速开始管理和部署云资源：
 
-  1. [登录系统](#登录系统)，查看主页。
+  1. [登录平台](#登录平台)，查看主页。
   
   2. 导入或者创建部署云资源：
 
@@ -53,8 +338,9 @@ SmartCMP是业内领先的云管理平台，提供各行业企业客户一站式
  >「Note」 若您需要通过云网关连接云主机，可直接关联云网关与资源池，对隔离网络环境中的云资源进行运维操作，并从已安装监控代理的云资源获取监控数据；若需要通过公网IP连接云主机，安装平台的监控代理，或进行运维操作，请针对平台的IP地址139.224.11.192设置一定的访问权限，包括允许SSH或WinRM，以及访问监控端口（Linux机器默认为9100，Windows机器9182）。
 
 
-# 登录系统{#登录系统}
+## 登录平台{#登录平台}
 
+您可以免费注册，注册成功后登录SmartCMP云管平台。
 
 + 浏览器输入平台的域名地址。
 + 可使用手机号或邮箱进行登录。
@@ -62,16 +348,13 @@ SmartCMP是业内领先的云管理平台，提供各行业企业客户一站式
 
 登录平台之后，主页将展示您拥有的云资源信息和工单处理情况，从其他页面可以点击右上角的主页按钮返回到此页面。如果需要修改您的用户头像，可以点击页面导航栏右上角的用户图标，进入编辑资料。
 
-左侧是各级菜单，您可以参考以下步骤快速配置平台，管理和部署您的云资源。如果需要熟悉平台页面，请参考[页面导航](https://CMP-PUBLIC-IP/help/AdminDoc/02首页/) 
+左侧是各级菜单，您可以参考以下步骤快速配置平台，管理和部署您的云资源。如果需要熟悉平台页面，请参考[页面导航](https://cloudchef.github.io/doc/AdminDoc/02首页/) 
 
-# 配置云平台入口{#配置云平台入口}
-
+## 配置云平台入口
 
 云平台入口定义了您需要管理的公有云、私有云、容器等云基础设施的接入方式。不同云基础设施账号的形式及获取方式各有不同，您可以通过填写对应的访问信息完成云平台基础设施的接入。
 
->「Note」请使用平台管理员或基础设施管理员登录云管理平台平台。公有云的访问信息获取方式，请您参考[添加阿里云平台](https://cloudchef.github.io/doc/AdminDoc/03基础设施管理/云平台管理.html#添加阿里云平台)
-
-## 添加vSphere云平台 {#添加vSphere云平台}
+### 添加vSphere云平台 {#添加vSphere云平台}
 
 为了管理vSphere虚拟化平台内的资源，您需要将vCenter连入到平台。请提供vCenter地址、管理员用户名和密码等信息来进行访问。
 
@@ -101,7 +384,7 @@ SmartCMP是业内领先的云管理平台，提供各行业企业客户一站式
 
 
 
-## 添加阿里云平台 {#添加阿里云平台}
+### 添加阿里云平台 {#添加阿里云平台}
 
 当接入云平台时，为了保障云主机的安全性，公有云（包括阿里云、腾讯云、AWS）在API调用时均需要验证访问者的身份，以确保访问者具有相关权限。公有云的验证方式通过Access Key来实现。Access Key由Access Key ID和Access Key Secret构成平台接入公有云云平台的访问密钥ID和访问密钥。
 
@@ -143,13 +426,13 @@ SmartCMP是业内领先的云管理平台，提供各行业企业客户一站式
 
 6. 点击验证，验证连接成功后点击保存，阿里云平台已保存。
 
-## 添加其他云平台　
 
-如果需要添加其他云平台，请参考[云平台管理](https://CMP-PUBLIC-IP/help/AdminDoc/03基础设施管理/云平台管理.html)
+### 添加其他云平台　
+
+如果需要添加其他云平台，请参考[云平台管理](https://cloudchef.github.io/doc/AdminDoc/03基础设施管理/云平台管理.html)
 
 
-
-# 创建资源池{#创建资源池}
+## 创建资源池
 
 通过资源池，您可以指定私有云的主机或群集、或公有云的区域和可用区为资源入口，分配不同的基础设施资源（包括计算、存储、网络等等）给不同的组织或环境进行使用，并可以设定配额。资源池可分配给一个、多个或全部业务组，从而指定不同的组织和用户使用该云平台中的基础设施资源。
 
@@ -157,15 +440,13 @@ SmartCMP是业内领先的云管理平台，提供各行业企业客户一站式
 
 当您需要对隔离网络环境中的云资源进行运维操作，可以选择安装部署云网关，并在创建资源池时关联云网关。具体操作步骤可以参考[云网关管理](https://cloudchef.github.io/doc/AdminDoc/03基础设施管理/云平台网关.html)。
 
-## 创建vSphere资源池 
+### 创建vSphere资源池 
 
 在左边导航选择 基础设施 下的二级菜单 资源池管理。点击添加按钮，选择 vSphere ，会出现创建资源池界面。按照表单逐步填写相关信息，保存即可。
 
 1.  概况标签页：
 
-  + 名称：自定义资源池名称，请说明环境或者类型。
-
-  + 业务组：为资源池关联一个或多个业务组，使得业务组内的用户可以申请资源池内的资源。
+  + 名称：自定义资源池名称，请说明环境或者类型
 
   + 资源标签（选填）：您可以为所管理的资源池设置资源标签，注明资源池的不同用途和属性，从而让用户在申请服务的时候进行筛选和指定，快速筛选匹配资源池。如果需要了解如何创建和配置资源标签，请您参考[资源标签](https://cloudchef.github.io/doc/AdminDoc/03基础设施管理/资源标签.html)。
 
@@ -193,24 +474,25 @@ SmartCMP是业内领先的云管理平台，提供各行业企业客户一站式
       * 宿主机选择策略：
         - vSphere平台自动选择：平台将部署指令发送到vCenter，按照vCenter自身的资源选择逻辑进行部署。
         - 优先选择剩余物理内存最大的主机：静虚拟机部署到选择剩余物理内存最大的宿主机。
- ![添加vSphere资源池-3](../../picture/Admin/4.1.添加vSphere资源池-3.PNG)
 
-3.  存储资源标签页：设置用户可以申请使用的存储类型，并针对不同类型设置标签
+  + 存储：选择当前资源池使用的存储池以及存储配额
       - 预留空间：选择预留给当前资源池的存储空间
       - 优先级：存储使用的优先级，数值小的会优先使用
-  ![添加vSphere资源池-存储资源](../../picture/Admin/添加vSphere资源池-存储资源.PNG)
 
-4.  网络资源标签页：
+ ![添加vSphere资源池-3](../../picture/Admin/4.1.添加vSphere资源池-3.png)
+
+3.  网络资源标签页：
 
   选择vCenter中的虚拟交换机或分布式虚拟机交换机，并进行设置：  
 
   * 别名：可给网络添加描述，在服务配置和申请时，将显示描述信息，方便选择；
   * IP分配方式：包括手工指定、IP池或DHCP。若IP分配方式选择IP池，则需要选择分配的IP池，请首先在 IP地址管理 中进行IP池和IP地址分配的设置；若IP分配方式选择手工指定，则在服务目录中请求服务，填写网络参数时，需要输入IP地址，网关和CIDR；若IP分配方式选择DHCP,则自动获得服务器分配的IP地址和子网掩码。
+
  ![添加vSphere资源池-4](../../picture/Admin/4.1.添加vSphere资源池-4.png)
 
-5.  云资源标签页：展示该资源池中部署的云资源，包括导入和纳管的。点击导入按钮，可将vCenter中已有的虚拟机导入到平台进行纳管。
+4. 云资源标签页：展示该资源池中部署的云资源，包括导入和纳管的。点击导入按钮，可将vCenter中已有的虚拟机导入到平台进行纳管。
 
-6.  同步策略标签页：您也可以在资源池中设置同步策略，定时同步vCenter中新增的资源。
+5. 同步策略标签页：您也可以在资源池中设置同步策略，定时同步vCenter中新增的资源。
 
  * 点击添加，进入同步策略配置界面
  * 选择同步对象类型
@@ -220,17 +502,15 @@ SmartCMP是业内领先的云管理平台，提供各行业企业客户一站式
  * 状态：启用表示策略生效，禁用表示暂不生效
  * 执行时间：使用Cron表达式设置同步策略的执行时间
 
-7.  点击保存，保存后在资源池列表出现添加成功的vSphere资源池。
+6. 点击保存，保存后在资源池列表出现添加成功的vSphere资源池。
 
-## 创建阿里云资源池
+### 创建阿里云资源池
 
 1.  进入 基础设施 - 资源池管理 ，点击添加，选择阿里云，填写下列信息：
 
 2.  概况标签页：
 
-  + 名称：自定义资源池名称，请说明环境或者类型。
-
-  + 业务组：为资源池关联一个或多个业务组，使得业务组内的用户可以申请资源池内的资源。
+  + 名称：自定义资源池名称，请说明环境或者类型
 
   + 资源标签（选填）：您可以为所管理的资源池设置资源标签，注明资源池的不同用途和属性，从而让用户在申请服务的时候进行筛选和指定，快速筛选匹配资源池。如果需要了解如何创建和配置资源标签，请您参考[资源标签](https://cloudchef.github.io/doc/AdminDoc/03基础设施管理/资源标签.html)。
 
@@ -246,16 +526,13 @@ SmartCMP是业内领先的云管理平台，提供各行业企业客户一站式
       * 资源组，选填，可选择阿里云中的资源组，从而将用户在本资源池中申请部署的资源在阿里云上分配到指定的资源组。
       * 网络类型，推荐选择专有网络，选择需要使用的VPC（若列表中下拉为空，请在阿里云控制台上创建VPC）。
 
-  ![添加阿里云资源池-2](../../picture/Admin/4.3.添加阿里云资源池-2.PNG)
+  ![添加阿里云资源池-2](../../picture/Admin/4.3.添加阿里云资源池-2.png)
 
 3.  计算资源标签页：设置本资源池最大允许部署的vCPU、内存及虚机数量，留空为无限制。
 
  ![添加阿里云资源池-3](../../picture/Admin/4.3.添加阿里云资源池-3.png)
 
-4.  存储资源标签页：设置用户可以申请使用的存储类型，并针对不同类型设置标签
- ![添加阿里云资源池-存储资源](../../picture/Admin/添加阿里云资源池-存储资源.PNG)
-
-5.  网络资源标签页：指定用户可以选择使用的安全组和虚拟交换机。若列表显示为空，请在阿里云控制台上创建。
+4.  网络资源标签页：指定用户可以选择使用的安全组和虚拟交换机。若列表显示为空，请在阿里云控制台上创建。
 
   + 安全策略组：
      ![添加阿里云资源池-4](../../picture/Admin/4.3.添加阿里云资源池-4.png)
@@ -263,9 +540,9 @@ SmartCMP是业内领先的云管理平台，提供各行业企业客户一站式
   + 虚拟交换机：若选择专有网络，需要选择虚拟交换机
      ![添加阿里云资源池-5](../../picture/Admin/4.3.添加阿里云资源池-5.png)
 
-6.  云资源标签页：展示该资源池中部署的云资源，包括导入和纳管的。点击导入按钮，可将阿里云中已有的虚拟机导入到平台进行纳管。
+5. 云资源标签页：展示该资源池中部署的云资源，包括导入和纳管的。点击导入按钮，可将阿里云中已有的虚拟机导入到平台进行纳管。
 
-7.  同步策略标签页：您也可以在资源池中设置同步策略，定时同步阿里云中新增的资源。
+6. 同步策略标签页：您也可以在资源池中设置同步策略，定时同步阿里云中新增的资源。
 
       * 点击添加，进入同步策略配置界面
       * 选择同步对象类型
@@ -276,34 +553,33 @@ SmartCMP是业内领先的云管理平台，提供各行业企业客户一站式
       * 执行时间：使用Cron表达式设置同步策略的执行时间
 
 7. 点击保存，阿里云资源池创建成功。
- 
 
-## 创建Hostpool资源池，导入存量机器{#导入存量机器}
+### 创建Hostpool资源池，导入存量机器{#导入存量机器}
 
-如果您有其他云平台存量资源需要管理，可以添加Hostpool资源池，对存量机器进行批量导入。详细步骤请参考[Hostpool资源池](https://CMP-PUBLIC-IP/help/AdminDoc/03基础设施管理/资源池管理.html#添加HostPool资源池)。
+如果您有其他云平台存量资源需要管理，可以添加Hostpool资源池，对存量机器进行批量导入。详细步骤请参考[Hostpool资源池](https://cloudchef.github.io/doc/AdminDoc/03基础设施管理/资源池管理.html#添加HostPool资源池)。
 
-## 创建其他资源池
+### 创建其他资源池
 
-如果需要创建其他资源池，请参考[资源池管理](https://CMP-PUBLIC-IP/help/AdminDoc/03基础设施管理/资源池管理.html)
+如果需要创建其他资源池，请参考[资源池管理](https://cloudchef.github.io/doc/AdminDoc/03基础设施管理/资源池管理.html)
 
-# 配置虚拟机模板（可选）{#配置虚拟机模板}
+## 配置虚拟机模板（可选）{#配置虚拟机模板}
 
 虚拟机模板是平台对操作系统的抽象和标准化。平台提供了内置的通用操作系统，您无需额外配置，可直接申请部署云资源，平台将会根据您选择的资源环境，读取云平台中的可用镜像。
 
-您也可以创建新的操作系统，或为各个操作系统指定特定的虚拟机模板或操作系统镜像，供您和用户在部署虚拟机的时候进行选择，或由平台根据您的配置自动进行选择。详细步骤请参考[添加虚拟机模板](https://CMP-PUBLIC-IP/help/AdminDoc/03基础设施管理/虚拟机模板.html#添加虚拟机模板)。
+您也可以创建新的操作系统，或为各个操作系统指定特定的虚拟机模板或操作系统镜像，供您和用户在部署虚拟机的时候进行选择，或由平台根据您的配置自动进行选择。详细步骤请参考[添加虚拟机模板](https://cloudchef.github.io/doc/AdminDoc/03基础设施管理/虚拟机模板.html#添加虚拟机模板)。
 
-# 配置计算规格（可选）{#配置计算规格}
+## 配置计算规格（可选）{#配置计算规格}
 
 计算规格定义了虚拟机的CPU和内存的配置规范（如：2核CPU，4G内存）。平台提供了内置的计算规格，您无需额外配置，可直接申请部署云资源，平台将会根据您选择的资源环境，读取云平台的可用规格。
 
-您也可以创建新的计算规格，或为各个云平台指定特定的实例规格，供您和用户在部署虚拟机的时候进行选择，或由平台根据您的配置自动进行选择。详细步骤请参考[添加计算规格](https://CMP-PUBLIC-IP/help/AdminDoc/03基础设施管理/计算规格.html#添加计算规格)
+您也可以创建新的计算规格，或为各个云平台指定特定的实例规格，供您和用户在部署虚拟机的时候进行选择，或由平台根据您的配置自动进行选择。详细步骤请参考[添加计算规格](https://cloudchef.github.io/doc/AdminDoc/03基础设施管理/计算规格.html#添加计算规格)
 
 >「Note」不同类型云平台的计算规格的配置方式有所不同，区别如下：
   -   私有云平台例如vSphere只需定义计算规格，不需要配置云平台规格
   -   OpenStack需要定义计算规格和云平台规格
   -   Azure、AWS、阿里云等公有云平台需要定义计算规格和云平台规格（针对每个公有云区域需要定义一个云平台规格）
 
-# 添加IP池{#添加IP池}
+## 添加IP池{#添加IP池}
 
 您可以配置IP池，管理IP地址段，并可在IP池中查看IP地址使用情况，可占用以及释放被占用的IP地址。
 
@@ -333,7 +609,7 @@ SmartCMP是业内领先的云管理平台，提供各行业企业客户一站式
     >「Note」IP管理支持IP池冷却期并支持自定义设置冷却期的时长，IP地址被释放后，IP地址会进入冷却期，在冷却期结束之后IP地址才会被重新分配。管理员可在 系统配置 - 系统参数 设置默认IP地址冷却时间。
 
 
-# 定义业务组{#定义业务组}
+## 定义业务组{#定义业务组}
 
 业务组是平台内的逻辑组织结构，支持创建多级业务组。业务组是一个逻辑概念，有需要把用户、服务、资源使用以及流程、规范等联系在一起的实体都可以用业务组来对应，比如子公司，不同层级的部门等。
 
@@ -389,7 +665,8 @@ SmartCMP是业内领先的云管理平台，提供各行业企业客户一站式
       ![5.业务组预算配额](../../picture/Admin/5.业务组预算配额.png)
     >「Note」当业务组下有多个额度不同的用户时，其中一个用户欠费，不影响其他用户申请资源，属于欠费用户的云主机停机，不影响其他用户的云主机状态。
 
-# 申请部署云资源{#申请部署云资源}
+
+## 申请部署云资源{#申请部署云资源}
 
 在将基础设施和组织架构配置完成之后，您可以通过以下方式申请部署云资源：
 
@@ -399,9 +676,9 @@ SmartCMP是业内领先的云管理平台，提供各行业企业客户一站式
 + 使用内置服务：或通过服务目录，选择平台内置的服务，进行申请，部署云资源。
 ![服务目录部署云资源-1](../../picture/Admin/服务目录部署云资源-1.png)
 
-+ 配置服务：您也可以根据您企业的需求，创建新的服务。通过服务对应的蓝图，您可以利用平台强大的基础设施即代码的功能，自动化部署虚拟机、中间件、数据库或是复杂的多层应用架构。具体步骤请参考蓝图设计[蓝图设计](https://CMP-PUBLIC-IP/help/AdminDoc/05服务建模/蓝图设计.html)和[服务建模](https://CMP-PUBLIC-IP/help/AdminDoc/05服务建模/)。
++ 配置服务：您也可以根据您企业的需求，创建新的服务。通过服务对应的蓝图，您可以利用平台强大的基础设施即代码的功能，自动化部署虚拟机、中间件、数据库或是复杂的多层应用架构。具体步骤请参考蓝图设计[蓝图设计](https://cloudchef.github.io/doc/AdminDoc/05服务建模/蓝图设计.html)和[服务建模](https://cloudchef.github.io/doc/AdminDoc/05服务建模/)。
 
-# 管理云资源{#自助运维}
+## 管理云资源{#自助运维}
 
 申请云资源部署之后，平台将根据您制定的配置，或是根据设定的策略，自动化部署您申请服务包含的所有云资源，例如一台虚拟机，一个数据库，或是一个多层次架构的应用环境。您可在配置的服务租期内，使用该应用栈的所有资源，自助进行运维或变更操作。
 
@@ -412,7 +689,7 @@ SmartCMP是业内领先的云管理平台，提供各行业企业客户一站式
  + 若无审批流程，可点击应用栈名称进入部署详情页面，可查看该部署的基本信息，应用栈拓扑，以及操作历史
 
   
-## 查看应用栈，自助运维
+### 查看应用栈，自助运维
 
 服务成功部署后，可在 应用栈 页面查看应用栈的状态、详情、监控等。您可通过统一页面，看到申请的所有应用栈和云资源，包括，云主机、存储、网络、软件等，查看运行状态，并进行允许的各种变更运维操作。
 
@@ -422,7 +699,7 @@ SmartCMP是业内领先的云管理平台，提供各行业企业客户一站式
 
   点击应用栈名称，可查看该应用栈的详细信息。应用栈详情信息界面包括基本信息、应用栈拓扑、操作历史和监控（对云主机和应用组件的监控）以及顶部的运维操作
 
-  + 概况标签页：包括应用栈的名称、业务组、项目、蓝图、资源池、云平台，以及费用、状态、时间等相关信息。还包括该应用栈的输入参数列表以及输出结果信息。应用栈部署失败后，某些场景可线下修复，修复成功后支持更改应用栈状态，将"异常"更改为"正常"
+  + 概况标签页：包括应用栈的名称、业务组、项目、蓝图、资源池、云平台，以及费用、状态、时间等相关信息。还包括该应用栈的输入参数列表以及输出结果信息。应用栈失败后，某些场景可线下修复，修复成功后支持更改应用栈状态，将"异常"更改为"正常"
 
   + 部署拓扑标签页：包括应用栈的蓝图、详情和流程信息。鼠标悬停至服务拓扑图中，将显示该节点的关键配置信息和监控信息（如果启用了监控）
 
@@ -433,14 +710,14 @@ SmartCMP是业内领先的云管理平台，提供各行业企业客户一站式
 
 ![应用栈](../../picture/Admin/10.自助运维-5.png)
 
-## 查看云主机和云资源，进行自助运维
+### 查看云主机和云资源，进行自助运维
 
-* 在[云主机](https://CMP-PUBLIC-IP/help/AdminDoc/14我的资源/云主机.html)中可以查看和编辑您有管理权限的云主机。在主机详情页中，如果启用了监控，您可以在 监控 标签页中查看虚拟机的监控指标信息。
+* 在[云主机](https://cloudchef.github.io/doc/AdminDoc/14我的资源/云主机.html)中可以查看和编辑您有管理权限的云主机。在主机详情页中，如果启用了监控，您可以在 监控 标签页中查看虚拟机的监控指标信息。
 
-* 在[云资源](https://CMP-PUBLIC-IP/help/AdminDoc/14我的资源/云资源.html)中可以查看和编辑您有管理权限的云资源，包括存储、网络和软件等资源。如果启用了监控，在云资源详情页中，如SLB，RDS等，您可以在监控标签页中查看监控指标信息。
+* 在[云资源](https://cloudchef.github.io/doc/AdminDoc/14我的资源/云资源.html)中可以查看和编辑您有管理权限的云资源，包括存储、网络和软件等资源。如果启用了监控，在云资源详情页中，如SLB，RDS等，您可以在监控标签页中查看监控指标信息。
 ![云主机](../../picture/Admin/10.2. 查看云主机详情和自助运维-2.png) 
 
-# 部署堡垒机（可选）{#配置堡垒机}
+## 部署堡垒机（可选）{#配置堡垒机}
 
 SmartCMP云管理平台提供了堡垒机功能，支持您通过堡垒机访问虚拟机，并可选择SSH/RDP/VNC等多种远程协议，为您提供统一的运维入口、构建安全、高效的运维通道。
 
@@ -450,10 +727,6 @@ SmartCMP云管理平台提供了堡垒机功能，支持您通过堡垒机访问
  + 运维操作：支持对主机进行批量改密和下发密钥，提高安全防护；
  + 会话管理和录像回放：拥有会话管理功能，并支持对所有的运维操作进行录像，全程审计。
 
-当您需要使用堡垒机时，可以参考[部署堡垒机](https://CMP-PUBLIC-IP/help/AdminDoc/12备份与安全/堡垒机.html)。
+当您需要使用堡垒机时，可以参考[部署堡垒机](https://cloudchef.github.io/doc/AdminDoc/12安全审计/#堡垒机.html)。
 
 至此，您已经可以通过平台成功申请部署云资源，并进行管理和运维操作。如需了解平台其他更丰富的功能和使用方法，请阅读平台使用手册的其他章节。
-
-
-
-

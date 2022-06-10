@@ -1,9 +1,9 @@
 
-**云ITSM平台**
+**云ITSM产品**
 
-云ITSM平台是云时代的IT服务门户，提供业务所用到的核心IT能力，可更好的支撑和引领业务；对IT技术的管理包括云服务管理、ITIL服务管理等。云ITSM平台面向多云和云原生服务；拥有统一的自服务入口，构建IT自服务体系；服务编排，云网联动；有机融合ITSM和ITOM的管理体系；建立数字化运营体系并且面向DevOps的自动化服务。
+云ITSM产品是云时代的IT服务门户，提供业务所用到的核心IT能力，可更好的支撑和引领业务；对IT技术的管理包括云服务管理、ITIL服务管理等。云ITSM产品面向多云和云原生服务；拥有统一的自服务入口，构建IT自服务体系；服务编排，云网联动；有机融合ITSM和ITOM的管理体系；建立数字化运营体系并且面向DevOps的自动化服务。
 
-下面介绍云ITSM平台特有功能，平台通用功能请参考[公共平台](https://cloudchef.github.io/doc/Products/00公共平台/README.html)。
+下面介绍云ITSM产品特有功能，平台通用功能请参考[公共平台](https://cloudchef.github.io/doc/Products/00公共平台/README.html)。
 
 # 服务目录
 

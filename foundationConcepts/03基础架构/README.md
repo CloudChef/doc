@@ -13,21 +13,14 @@
  云平台类型|接入方式
  :------:|:------: 
 vSphere|vCenter Server
+VMware NSX  |NSX管理控制器 
 OpenStack|OpenStack管理控制器
-PowerVC |PowerVC管理控制器
-Hyper-V|Microsoft System Center Virtual Machine Manager(SCVMM)服务器
-物理服务器 |SmartCMP的物理服务器管理节点信息
 阿里云  |阿里云云服务账号AccessKey
 AWS  |AWS云服务账号AccessKey
 微软Azure|  Azure API访问凭证
 腾讯云|腾讯云云服务账号AccessKey
 青云|   青云云服务账号AccessKey
-VMware NSX  |NSX管理控制器 
-Cisco ACI  |ACI管理控制器 
-F5  |F5管理控制器 
 
-# 云平台网关
-企业的基础架构和网络环境较为复杂，存在多个数据中心、虚拟网络环境之间隔离、采用混合云架构等多个场景，基于此SmartCMP采用分布式架构，借助云平台网关可连接不同网络环境中的云平台并统一监控和管理各VPC、数据中心或者云环境中的资源。您只需为每个数据中心、VPC或远程站点创建和管理一个云平台网关，用作连接和通信。
 
 
 # 资源池
@@ -42,8 +35,6 @@ F5  |F5管理控制器
  :------: |:------: 
 vSphere |vSphere群集
 OpenStack |OpenStack可用区
-PowerVC |PowerVC可用区
-Hyper-V |Hyper-V群集
 阿里云   |阿里云区域，可用区以及VPC
 AWS  |AWS区域，可用区以及VPC
 微软Azure  |Azure订阅ID，区域以及资源组 

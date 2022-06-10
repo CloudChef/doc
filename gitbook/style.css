@@ -820,14 +820,14 @@ table{border-collapse:collapse;border-spacing:0}
 .markdown-section blockquote,.markdown-section dl,.markdown-section ol,.markdown-section p,.markdown-section table,.markdown-section ul{margin-top:0;margin-bottom:.85em}
 .markdown-section a{color:#4183c4;text-decoration:none;background:0 0}
 .markdown-section a:active,.markdown-section a:focus,.markdown-section a:hover{outline:0;text-decoration:underline}
-.markdown-section img{border:1px solid #ddd!important;max-width:100%;    margin-top: 10px; margin-bottom: 10px;}
+.markdown-section img{border:0;max-width:100%}
 .markdown-section hr{height:4px;padding:0;margin:1.7em 0;overflow:hidden;background-color:#e7e7e7;border:none}
 .markdown-section hr:after,.markdown-section hr:before{display:table;content:" "}
 .markdown-section hr:after{clear:both}
 .markdown-section h1,.markdown-section h2,.markdown-section h3,.markdown-section h4,.markdown-section h5,.markdown-section h6{margin-top:1.275em;margin-bottom:.85em;font-weight:700}
 .markdown-section h1{font-size:2em}
-.markdown-section h2{font-size:1.75em; padding-left: 10px;}
-.markdown-section h3{font-size:1.1em;padding-left: 15px;}
+.markdown-section h2{font-size:1.75em}
+.markdown-section h3{font-size:1.1em}
 .markdown-section h4{font-size:1em}
 .markdown-section h5{font-size:1em}
 .markdown-section h6{font-size:1em;color:#777}
